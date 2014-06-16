@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE tsung SYSTEM "/usr/share/tsung/tsung-1.0.dtd">
+<tsung loglevel="notice" version="1.0">
+
+    <clients>
+      <client host="localhost" maxusers="50000" use_controller_vm="true"/>
+    </clients>
+
+    <servers>
+	<server host="aws-bal" port="80" type="tcp"/>
+        <!--<server host="aws-server1" port="80" type="tcp"/>
+        <server host="aws-server2" port="80" type="tcp"/>-->
+    </servers>
+
+    <monitoring>
+        <monitor host="localhost" type="erlang"/>
+        <monitor host="aws-server1" type="erlang"/>
+        <monitor host="aws-server2" type="erlang"/>
+    </monitoring>
+
+    <load loop='1'>
+        <arrivalphase phase="1" duration="15" unit="second">
+            <users arrivalrate="1" unit="second"/>
+        </arrivalphase>
+        <arrivalphase phase="2" duration="30" unit="second">
+            <users arrivalrate="20" unit="second"/>
+        </arrivalphase>
+        <arrivalphase phase="3" duration="15" unit="second">
+            <users arrivalrate="1" unit="second"/>
+        </arrivalphase>
+    </load>
+
+    <options>
+        <option name="file_server" id="maclist" value="./csv/maclist.csv"/>
+        <option name="file_server" id="devlist" value="./csv/devlist.csv"/>
+    </options>
+
+    <sessions>
+
+        <session name="register" weight="1" type="ts_http">
+            <setdynvars sourcetype="file" fileid="maclist" delimiter="\n" order="iter">
+                <var name="mac" />
+            </setdynvars>
+            <transaction name="register">
+                <request subst="true">
+                    <dyn_variable name="device_id" jsonpath="deviceId" />
+                    <http url="/ds/register/magic-mfg-key/%%_mac%%" method="GET" version="1.1" />
+                </request>
+            </transaction>
+        </session>
+
+  </sessions>
+
+</tsung>

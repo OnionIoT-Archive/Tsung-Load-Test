@@ -1,0 +1,9 @@
+#!/bin/bash
+#python py/randmac.py
+#python py/randdev.py
+tsung -f ./xml/aws_test_$1.xml -l ./log/$1 -i $1 start
+FIL=$(python py/recent.py $1)
+cd ./log/$1/$FIL
+pwd
+perl /usr/lib/tsung/bin/tsung_stats.pl
+#google-chrome report.html

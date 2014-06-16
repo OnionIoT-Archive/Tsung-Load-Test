@@ -1,0 +1,1809 @@
+
+=INFO REPORT==== 16-Jun-2014::18:44:39 ===
+    ts_config_server:(5:<0.54.0>) Config server started, logdir is "/home/ubuntu/tsung/log/dec/20140616-1844"
+ 
+=INFO REPORT==== 16-Jun-2014::18:44:39 ===
+              ts_mon:(5:<0.53.0>) starting monitor, global 
+
+=INFO REPORT==== 16-Jun-2014::18:44:39 ===
+           ts_config:(5:<0.54.0>) Reading config file: ./xml/aws_test_dec.xml
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+           ts_config:(5:<0.54.0>) Session name for id 1 is "declare"
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(4:<0.54.0>) SYSINFO:Tsung version: 1.5.1
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(4:<0.54.0>) SYSINFO:Erlang version: Erlang R16B03 (erts-5.10.4) [source] [64-bit] [async-threads:16] [hipe] [kernel-poll:true]
+
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(4:<0.54.0>) SYSINFO:System architecture x86_64-pc-linux-gnu
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(4:<0.54.0>) SYSINFO:Current path: /usr/lib/erlang/lib/tsung-1.5.1/ebin/tsung.beam
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+              ts_mon:(5:<0.55.0>) Activate clients with text backend
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+              ts_mon:(5:<0.55.0>) Starting tsung clients on hosts: [localhost]
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(5:<0.54.0>) Start a launcher on the controller beam localhost
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+  ts_launcher_static:(5:<0.88.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+         ts_launcher:(5:<0.89.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(5:<0.54.0>) All remote beams started, syncing 
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(5:<0.54.0>) Undefined ports_range config 
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 1 for client "localhost" (last ? true): will start 500 users
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 2 for client "localhost" (last ? true): will start 1000 users
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 3 for client "localhost" (last ? true): will start 1500 users
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 4 for client "localhost" (last ? true): will start 2000 users
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 5 for client "localhost" (last ? true): will start 2500 users
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 6 for client "localhost" (last ? true): will start 3000 users
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 7 for client "localhost" (last ? true): will start 500 users
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 8 for client "localhost" (last ? true): will start 1000 users
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 9 for client "localhost" (last ? true): will start 1500 users
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 10 for client "localhost" (last ? true): will start 2000 users
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 11 for client "localhost" (last ? true): will start 2500 users
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 12 for client "localhost" (last ? true): will start 3000 users
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+         ts_launcher:(5:<0.89.0>) Expected duration of first phase: 300.0 sec (500 users) 
+
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+         ts_launcher:(2:<0.89.0>) WARNING !!! too few file descriptors available (1024), you should decrease maxusers (currently 50000)
+=INFO REPORT==== 16-Jun-2014::18:44:40 ===
+         ts_launcher:(5:<0.89.0>) Activate launcher (500 users) in 1032 msec 
+
+=INFO REPORT==== 16-Jun-2014::18:44:41 ===
+    ts_os_mon_erlang:(5:<0.76.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:45:13 ===
+    ts_os_mon_erlang:(3:<0.76.0>) Fail to start beam on host "localhost" ({error,
+                                                                           timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:45:13 ===
+** Generic server <0.76.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.316>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:45:14 ===
+    ts_os_mon_erlang:(5:<0.147.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:45:46 ===
+    ts_os_mon_erlang:(3:<0.147.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:45:46 ===
+** Generic server <0.147.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.991>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:45:47 ===
+    ts_os_mon_erlang:(5:<0.201.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:46:19 ===
+    ts_os_mon_erlang:(3:<0.201.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:46:19 ===
+** Generic server <0.201.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.1614>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:46:20 ===
+    ts_os_mon_erlang:(5:<0.267.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:46:52 ===
+    ts_os_mon_erlang:(3:<0.267.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:46:52 ===
+** Generic server <0.267.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.2374>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:46:53 ===
+    ts_os_mon_erlang:(5:<0.336.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:47:25 ===
+    ts_os_mon_erlang:(3:<0.336.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:47:25 ===
+** Generic server <0.336.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.3170>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:47:26 ===
+    ts_os_mon_erlang:(5:<0.402.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:47:58 ===
+    ts_os_mon_erlang:(3:<0.402.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:47:58 ===
+** Generic server <0.402.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.3931>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:47:59 ===
+    ts_os_mon_erlang:(5:<0.477.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:48:31 ===
+    ts_os_mon_erlang:(3:<0.477.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:48:31 ===
+** Generic server <0.477.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.4788>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:48:32 ===
+    ts_os_mon_erlang:(5:<0.526.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:49:04 ===
+    ts_os_mon_erlang:(3:<0.526.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:49:04 ===
+** Generic server <0.526.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.5356>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:49:05 ===
+    ts_os_mon_erlang:(5:<0.583.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:49:37 ===
+    ts_os_mon_erlang:(3:<0.583.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:49:37 ===
+** Generic server <0.583.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.6018>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:49:38 ===
+    ts_os_mon_erlang:(5:<0.642.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:49:41 ===
+         ts_launcher:(5:<0.89.0>) Phase duration exceeded, but not all users were launched (28 users, 5.6% of phase)
+
+=INFO REPORT==== 16-Jun-2014::18:49:41 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (1000 users, 0.0033333333333333335); expected duration=300.0 sec
+
+=INFO REPORT==== 16-Jun-2014::18:50:10 ===
+    ts_os_mon_erlang:(3:<0.642.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:50:10 ===
+** Generic server <0.642.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.6703>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:50:11 ===
+    ts_os_mon_erlang:(5:<0.749.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:50:43 ===
+    ts_os_mon_erlang:(3:<0.749.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:50:43 ===
+** Generic server <0.749.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.7922>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:50:44 ===
+    ts_os_mon_erlang:(5:<0.860.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:51:16 ===
+    ts_os_mon_erlang:(3:<0.860.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:51:16 ===
+** Generic server <0.860.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.9182>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:51:17 ===
+    ts_os_mon_erlang:(5:<0.972.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:51:49 ===
+    ts_os_mon_erlang:(3:<0.972.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:51:49 ===
+** Generic server <0.972.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.10452>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:51:50 ===
+    ts_os_mon_erlang:(5:<0.1080.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:52:22 ===
+    ts_os_mon_erlang:(3:<0.1080.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:52:22 ===
+** Generic server <0.1080.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.11678>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:52:23 ===
+    ts_os_mon_erlang:(5:<0.1193.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:52:55 ===
+    ts_os_mon_erlang:(3:<0.1193.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:52:55 ===
+** Generic server <0.1193.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.12954>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:52:56 ===
+    ts_os_mon_erlang:(5:<0.1340.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:53:28 ===
+    ts_os_mon_erlang:(3:<0.1340.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:53:28 ===
+** Generic server <0.1340.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.14472>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:53:29 ===
+    ts_os_mon_erlang:(5:<0.1443.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:54:01 ===
+    ts_os_mon_erlang:(3:<0.1443.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:54:01 ===
+** Generic server <0.1443.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.15788>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:54:02 ===
+    ts_os_mon_erlang:(5:<0.1583.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:54:34 ===
+    ts_os_mon_erlang:(3:<0.1583.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:54:34 ===
+** Generic server <0.1583.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.17342>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:54:35 ===
+    ts_os_mon_erlang:(5:<0.1700.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:54:41 ===
+         ts_launcher:(5:<0.89.0>) Phase duration exceeded, but not all users were launched (6 users, 0.6% of phase)
+
+=INFO REPORT==== 16-Jun-2014::18:54:41 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (1500 users, 0.005); expected duration=300.0 sec
+
+=INFO REPORT==== 16-Jun-2014::18:55:07 ===
+    ts_os_mon_erlang:(3:<0.1700.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:55:07 ===
+** Generic server <0.1700.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.18565>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:55:08 ===
+    ts_os_mon_erlang:(5:<0.1877.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:55:40 ===
+    ts_os_mon_erlang:(3:<0.1877.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:55:40 ===
+** Generic server <0.1877.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.20685>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:55:41 ===
+    ts_os_mon_erlang:(5:<0.2026.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:56:13 ===
+    ts_os_mon_erlang:(3:<0.2026.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:56:13 ===
+** Generic server <0.2026.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.22366>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:56:14 ===
+    ts_os_mon_erlang:(5:<0.2165.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:56:46 ===
+    ts_os_mon_erlang:(3:<0.2165.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:56:46 ===
+** Generic server <0.2165.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.23927>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:56:47 ===
+    ts_os_mon_erlang:(5:<0.2302.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:57:19 ===
+    ts_os_mon_erlang:(3:<0.2302.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:57:19 ===
+** Generic server <0.2302.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.25471>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:57:20 ===
+    ts_os_mon_erlang:(5:<0.2432.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:57:52 ===
+    ts_os_mon_erlang:(3:<0.2432.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:57:52 ===
+** Generic server <0.2432.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.26930>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:57:53 ===
+    ts_os_mon_erlang:(5:<0.2618.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:58:25 ===
+    ts_os_mon_erlang:(3:<0.2618.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:58:25 ===
+** Generic server <0.2618.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.29021>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:58:26 ===
+    ts_os_mon_erlang:(5:<0.2782.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:58:58 ===
+    ts_os_mon_erlang:(3:<0.2782.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:58:58 ===
+** Generic server <0.2782.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.30866>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:58:59 ===
+    ts_os_mon_erlang:(5:<0.2973.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:59:31 ===
+    ts_os_mon_erlang:(3:<0.2973.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::18:59:31 ===
+** Generic server <0.2973.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.33009>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::18:59:32 ===
+    ts_os_mon_erlang:(5:<0.3193.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::18:59:41 ===
+         ts_launcher:(5:<0.89.0>) Phase duration exceeded, but not all users were launched (81 users, 5.4% of phase)
+
+=INFO REPORT==== 16-Jun-2014::18:59:41 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (2000 users, 0.006666666666666667); expected duration=300.0 sec
+
+=INFO REPORT==== 16-Jun-2014::19:00:04 ===
+    ts_os_mon_erlang:(3:<0.3193.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:00:04 ===
+** Generic server <0.3193.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.35473>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:00:05 ===
+    ts_os_mon_erlang:(5:<0.3360.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:00:37 ===
+    ts_os_mon_erlang:(3:<0.3360.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:00:37 ===
+** Generic server <0.3360.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.37337>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:00:38 ===
+    ts_os_mon_erlang:(5:<0.3556.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:01:10 ===
+    ts_os_mon_erlang:(3:<0.3556.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:01:10 ===
+** Generic server <0.3556.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.39536>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:01:12 ===
+    ts_os_mon_erlang:(5:<0.3740.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:01:44 ===
+    ts_os_mon_erlang:(3:<0.3740.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:01:44 ===
+** Generic server <0.3740.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.41597>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:01:45 ===
+    ts_os_mon_erlang:(5:<0.3943.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:02:17 ===
+    ts_os_mon_erlang:(3:<0.3943.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:02:17 ===
+** Generic server <0.3943.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.43865>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:02:18 ===
+    ts_os_mon_erlang:(5:<0.4171.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:02:50 ===
+    ts_os_mon_erlang:(3:<0.4171.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:02:50 ===
+** Generic server <0.4171.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.46414>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:02:51 ===
+    ts_os_mon_erlang:(5:<0.4408.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:03:23 ===
+    ts_os_mon_erlang:(3:<0.4408.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:03:23 ===
+** Generic server <0.4408.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.49067>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:03:24 ===
+    ts_os_mon_erlang:(5:<0.4608.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:03:56 ===
+    ts_os_mon_erlang:(3:<0.4608.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:03:56 ===
+** Generic server <0.4608.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.51308>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:03:57 ===
+    ts_os_mon_erlang:(5:<0.4818.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:04:29 ===
+    ts_os_mon_erlang:(3:<0.4818.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:04:29 ===
+** Generic server <0.4818.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.53659>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:04:30 ===
+    ts_os_mon_erlang:(5:<0.5010.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:04:42 ===
+         ts_launcher:(5:<0.89.0>) Phase duration exceeded, but not all users were launched (250 users, 12.5% of phase)
+
+=INFO REPORT==== 16-Jun-2014::19:04:42 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (2500 users, 0.008333333333333333); expected duration=300.0 sec
+
+=INFO REPORT==== 16-Jun-2014::19:05:02 ===
+    ts_os_mon_erlang:(3:<0.5010.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:05:02 ===
+** Generic server <0.5010.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.55808>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:05:03 ===
+    ts_os_mon_erlang:(5:<0.5187.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:05:35 ===
+    ts_os_mon_erlang:(3:<0.5187.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:05:35 ===
+** Generic server <0.5187.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.57793>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:05:36 ===
+    ts_os_mon_erlang:(5:<0.5401.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:06:09 ===
+    ts_os_mon_erlang:(3:<0.5401.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:06:09 ===
+** Generic server <0.5401.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.60179>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:06:10 ===
+    ts_os_mon_erlang:(5:<0.5566.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:06:42 ===
+    ts_os_mon_erlang:(3:<0.5566.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:06:42 ===
+** Generic server <0.5566.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.62020>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:06:43 ===
+    ts_os_mon_erlang:(5:<0.5803.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:07:15 ===
+    ts_os_mon_erlang:(3:<0.5803.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:07:15 ===
+** Generic server <0.5803.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.64664>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:07:16 ===
+    ts_os_mon_erlang:(5:<0.5999.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:07:48 ===
+    ts_os_mon_erlang:(3:<0.5999.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:07:48 ===
+** Generic server <0.5999.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.66852>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:07:49 ===
+    ts_os_mon_erlang:(5:<0.6226.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:08:21 ===
+    ts_os_mon_erlang:(3:<0.6226.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:08:21 ===
+** Generic server <0.6226.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.69380>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:08:22 ===
+    ts_os_mon_erlang:(5:<0.6434.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:08:54 ===
+    ts_os_mon_erlang:(3:<0.6434.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:08:54 ===
+** Generic server <0.6434.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.71701>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:08:55 ===
+    ts_os_mon_erlang:(5:<0.6739.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:09:27 ===
+    ts_os_mon_erlang:(3:<0.6739.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:09:27 ===
+** Generic server <0.6739.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.75098>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:09:28 ===
+    ts_os_mon_erlang:(5:<0.7013.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:09:42 ===
+         ts_launcher:(4:<0.89.0>) Phase duration exceeded, more than 20% (21.3%) of users were not launched in time (533 users), tsung may be overloaded !
+
+=INFO REPORT==== 16-Jun-2014::19:09:42 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (3000 users, 0.01); expected duration=300.0 sec
+
+=INFO REPORT==== 16-Jun-2014::19:10:00 ===
+    ts_os_mon_erlang:(3:<0.7013.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:10:00 ===
+** Generic server <0.7013.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.78153>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:10:01 ===
+    ts_os_mon_erlang:(5:<0.7303.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:10:33 ===
+    ts_os_mon_erlang:(3:<0.7303.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:10:33 ===
+** Generic server <0.7303.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.81390>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:10:34 ===
+    ts_os_mon_erlang:(5:<0.7625.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:11:06 ===
+    ts_os_mon_erlang:(3:<0.7625.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:11:06 ===
+** Generic server <0.7625.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.84973>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:11:07 ===
+    ts_os_mon_erlang:(5:<0.7919.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:11:39 ===
+    ts_os_mon_erlang:(3:<0.7919.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:11:39 ===
+** Generic server <0.7919.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.88244>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:11:40 ===
+    ts_os_mon_erlang:(5:<0.8115.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:12:12 ===
+    ts_os_mon_erlang:(3:<0.8115.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:12:12 ===
+** Generic server <0.8115.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.90429>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:12:13 ===
+    ts_os_mon_erlang:(5:<0.8409.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:12:46 ===
+    ts_os_mon_erlang:(3:<0.8409.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:12:46 ===
+** Generic server <0.8409.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.93702>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:12:47 ===
+    ts_os_mon_erlang:(5:<0.8764.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:13:19 ===
+    ts_os_mon_erlang:(3:<0.8764.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:13:19 ===
+** Generic server <0.8764.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.97650>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:13:20 ===
+    ts_os_mon_erlang:(5:<0.9039.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:13:52 ===
+    ts_os_mon_erlang:(3:<0.9039.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:13:52 ===
+** Generic server <0.9039.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.100709>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:13:53 ===
+    ts_os_mon_erlang:(5:<0.9218.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:14:26 ===
+    ts_os_mon_erlang:(3:<0.9218.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:14:26 ===
+** Generic server <0.9218.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.102708>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:14:27 ===
+    ts_os_mon_erlang:(5:<0.9555.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:14:42 ===
+         ts_launcher:(5:<0.89.0>) Phase duration exceeded, but not all users were launched (496 users, 16.5% of phase)
+
+=INFO REPORT==== 16-Jun-2014::19:14:42 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (500 users, 0.0016666666666666668); expected duration=300.0 sec
+
+=INFO REPORT==== 16-Jun-2014::19:14:59 ===
+    ts_os_mon_erlang:(3:<0.9555.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:14:59 ===
+** Generic server <0.9555.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.106456>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:15:00 ===
+    ts_os_mon_erlang:(5:<0.9743.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:15:32 ===
+    ts_os_mon_erlang:(3:<0.9743.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:15:32 ===
+** Generic server <0.9743.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.108569>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:15:33 ===
+    ts_os_mon_erlang:(5:<0.9802.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:16:05 ===
+    ts_os_mon_erlang:(3:<0.9802.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:16:05 ===
+** Generic server <0.9802.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.109263>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:16:06 ===
+    ts_os_mon_erlang:(5:<0.9866.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:16:38 ===
+    ts_os_mon_erlang:(3:<0.9866.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:16:38 ===
+** Generic server <0.9866.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.110008>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:16:39 ===
+    ts_os_mon_erlang:(5:<0.9929.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:17:11 ===
+    ts_os_mon_erlang:(3:<0.9929.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:17:11 ===
+** Generic server <0.9929.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.110742>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:17:12 ===
+    ts_os_mon_erlang:(5:<0.9999.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:17:44 ===
+    ts_os_mon_erlang:(3:<0.9999.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:17:44 ===
+** Generic server <0.9999.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.111558>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:17:45 ===
+    ts_os_mon_erlang:(5:<0.10063.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:18:17 ===
+    ts_os_mon_erlang:(3:<0.10063.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:18:17 ===
+** Generic server <0.10063.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.112302>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:18:18 ===
+    ts_os_mon_erlang:(5:<0.10122.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:18:50 ===
+    ts_os_mon_erlang:(3:<0.10122.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:18:50 ===
+** Generic server <0.10122.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.112992>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:18:51 ===
+    ts_os_mon_erlang:(5:<0.10194.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:19:23 ===
+    ts_os_mon_erlang:(3:<0.10194.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:19:23 ===
+** Generic server <0.10194.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.113830>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:19:24 ===
+    ts_os_mon_erlang:(5:<0.10258.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:19:42 ===
+         ts_launcher:(5:<0.89.0>) Phase duration exceeded, but not all users were launched (3 users, 0.6% of phase)
+
+=INFO REPORT==== 16-Jun-2014::19:19:42 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (1000 users, 0.0033333333333333335); expected duration=300.0 sec
+
+=INFO REPORT==== 16-Jun-2014::19:19:56 ===
+    ts_os_mon_erlang:(3:<0.10258.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:19:56 ===
+** Generic server <0.10258.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.114575>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:19:57 ===
+    ts_os_mon_erlang:(5:<0.10331.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:20:29 ===
+    ts_os_mon_erlang:(3:<0.10331.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:20:29 ===
+** Generic server <0.10331.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.115417>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:20:30 ===
+    ts_os_mon_erlang:(5:<0.10433.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:21:02 ===
+    ts_os_mon_erlang:(3:<0.10433.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:21:02 ===
+** Generic server <0.10433.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.116570>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:21:03 ===
+    ts_os_mon_erlang:(5:<0.10534.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:21:35 ===
+    ts_os_mon_erlang:(3:<0.10534.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:21:35 ===
+** Generic server <0.10534.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.117725>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:21:36 ===
+    ts_os_mon_erlang:(5:<0.10657.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:22:08 ===
+    ts_os_mon_erlang:(3:<0.10657.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:22:08 ===
+** Generic server <0.10657.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.119119>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:22:09 ===
+    ts_os_mon_erlang:(5:<0.10793.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:22:41 ===
+    ts_os_mon_erlang:(3:<0.10793.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:22:41 ===
+** Generic server <0.10793.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.120656>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:22:42 ===
+    ts_os_mon_erlang:(5:<0.10902.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:23:14 ===
+    ts_os_mon_erlang:(3:<0.10902.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:23:14 ===
+** Generic server <0.10902.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.121900>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:23:15 ===
+    ts_os_mon_erlang:(5:<0.11032.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:23:47 ===
+    ts_os_mon_erlang:(3:<0.11032.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:23:47 ===
+** Generic server <0.11032.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.123371>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:23:48 ===
+    ts_os_mon_erlang:(5:<0.11145.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:24:20 ===
+    ts_os_mon_erlang:(3:<0.11145.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:24:20 ===
+** Generic server <0.11145.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.124655>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:24:21 ===
+    ts_os_mon_erlang:(5:<0.11257.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:24:43 ===
+         ts_launcher:(5:<0.89.0>) Phase duration exceeded, but not all users were launched (32 users, 3.2% of phase)
+
+=INFO REPORT==== 16-Jun-2014::19:24:43 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (1500 users, 0.005); expected duration=300.0 sec
+
+=INFO REPORT==== 16-Jun-2014::19:24:53 ===
+    ts_os_mon_erlang:(3:<0.11257.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:24:53 ===
+** Generic server <0.11257.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.125932>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:24:54 ===
+    ts_os_mon_erlang:(5:<0.11386.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:25:26 ===
+    ts_os_mon_erlang:(3:<0.11386.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:25:26 ===
+** Generic server <0.11386.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.127278>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:25:27 ===
+    ts_os_mon_erlang:(5:<0.11570.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:25:59 ===
+    ts_os_mon_erlang:(3:<0.11570.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:25:59 ===
+** Generic server <0.11570.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.129460>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:26:00 ===
+    ts_os_mon_erlang:(5:<0.11731.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:26:32 ===
+    ts_os_mon_erlang:(3:<0.11731.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:26:32 ===
+** Generic server <0.11731.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.131259>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:26:33 ===
+    ts_os_mon_erlang:(5:<0.11941.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:27:05 ===
+    ts_os_mon_erlang:(3:<0.11941.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:27:05 ===
+** Generic server <0.11941.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.133414>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:27:06 ===
+    ts_os_mon_erlang:(5:<0.12103.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:27:38 ===
+    ts_os_mon_erlang:(3:<0.12103.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:27:38 ===
+** Generic server <0.12103.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.135451>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:27:39 ===
+    ts_os_mon_erlang:(5:<0.12287.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:28:11 ===
+    ts_os_mon_erlang:(3:<0.12287.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:28:11 ===
+** Generic server <0.12287.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.137515>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:28:12 ===
+    ts_os_mon_erlang:(5:<0.12453.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:28:44 ===
+    ts_os_mon_erlang:(3:<0.12453.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:28:44 ===
+** Generic server <0.12453.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.139386>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:28:45 ===
+    ts_os_mon_erlang:(5:<0.12620.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:29:17 ===
+    ts_os_mon_erlang:(3:<0.12620.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:29:17 ===
+** Generic server <0.12620.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.141265>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:29:18 ===
+    ts_os_mon_erlang:(5:<0.12769.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:29:43 ===
+         ts_launcher:(5:<0.89.0>) Phase duration exceeded, but not all users were launched (5 users, 0.3% of phase)
+
+=INFO REPORT==== 16-Jun-2014::19:29:43 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (2000 users, 0.006666666666666667); expected duration=300.0 sec
+
+=INFO REPORT==== 16-Jun-2014::19:29:50 ===
+    ts_os_mon_erlang:(3:<0.12769.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:29:50 ===
+** Generic server <0.12769.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.142945>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:29:51 ===
+    ts_os_mon_erlang:(5:<0.12985.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:30:23 ===
+    ts_os_mon_erlang:(3:<0.12985.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:30:23 ===
+** Generic server <0.12985.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.145368>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:30:24 ===
+    ts_os_mon_erlang:(5:<0.13254.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:30:56 ===
+    ts_os_mon_erlang:(3:<0.13254.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:30:56 ===
+** Generic server <0.13254.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.148368>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:30:57 ===
+    ts_os_mon_erlang:(5:<0.13455.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:31:29 ===
+    ts_os_mon_erlang:(3:<0.13455.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:31:29 ===
+** Generic server <0.13455.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.150618>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:31:31 ===
+    ts_os_mon_erlang:(5:<0.13607.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:32:03 ===
+    ts_os_mon_erlang:(3:<0.13607.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:32:03 ===
+** Generic server <0.13607.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.152319>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:32:04 ===
+    ts_os_mon_erlang:(5:<0.13796.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:32:36 ===
+    ts_os_mon_erlang:(3:<0.13796.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:32:36 ===
+** Generic server <0.13796.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.154434>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:32:37 ===
+    ts_os_mon_erlang:(5:<0.14040.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:33:09 ===
+    ts_os_mon_erlang:(3:<0.14040.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:33:09 ===
+** Generic server <0.14040.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.157159>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:33:10 ===
+    ts_os_mon_erlang:(5:<0.14255.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:33:42 ===
+    ts_os_mon_erlang:(3:<0.14255.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:33:42 ===
+** Generic server <0.14255.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.159566>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:33:43 ===
+    ts_os_mon_erlang:(5:<0.14471.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:34:15 ===
+    ts_os_mon_erlang:(3:<0.14471.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:34:15 ===
+** Generic server <0.14471.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.161860>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:34:16 ===
+    ts_os_mon_erlang:(5:<0.14720.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:34:43 ===
+         ts_launcher:(5:<0.89.0>) Phase duration exceeded, but not all users were launched (76 users, 3.8% of phase)
+
+=INFO REPORT==== 16-Jun-2014::19:34:43 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (2500 users, 0.008333333333333333); expected duration=300.0 sec
+
+=INFO REPORT==== 16-Jun-2014::19:34:48 ===
+    ts_os_mon_erlang:(3:<0.14720.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:34:48 ===
+** Generic server <0.14720.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.164767>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:34:49 ===
+    ts_os_mon_erlang:(5:<0.14962.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:35:21 ===
+    ts_os_mon_erlang:(3:<0.14962.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:35:21 ===
+** Generic server <0.14962.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.167471>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:35:22 ===
+    ts_os_mon_erlang:(5:<0.15230.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:35:54 ===
+    ts_os_mon_erlang:(3:<0.15230.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:35:54 ===
+** Generic server <0.15230.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.170465>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:35:55 ===
+    ts_os_mon_erlang:(5:<0.15551.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:36:27 ===
+    ts_os_mon_erlang:(3:<0.15551.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:36:27 ===
+** Generic server <0.15551.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.174036>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:36:28 ===
+    ts_os_mon_erlang:(5:<0.15833.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:37:00 ===
+    ts_os_mon_erlang:(3:<0.15833.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:37:00 ===
+** Generic server <0.15833.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.177180>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:37:01 ===
+    ts_os_mon_erlang:(5:<0.16123.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:37:33 ===
+    ts_os_mon_erlang:(3:<0.16123.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:37:33 ===
+** Generic server <0.16123.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.180416>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:37:34 ===
+    ts_os_mon_erlang:(5:<0.16397.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:38:06 ===
+    ts_os_mon_erlang:(3:<0.16397.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:38:06 ===
+** Generic server <0.16397.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.183471>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:38:07 ===
+    ts_os_mon_erlang:(5:<0.16696.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:38:39 ===
+    ts_os_mon_erlang:(3:<0.16696.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:38:39 ===
+** Generic server <0.16696.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.186801>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:38:40 ===
+    ts_os_mon_erlang:(5:<0.16988.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:39:12 ===
+    ts_os_mon_erlang:(3:<0.16988.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:39:12 ===
+** Generic server <0.16988.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.189889>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:39:13 ===
+    ts_os_mon_erlang:(5:<0.17301.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:39:41 ===
+         ts_launcher:(4:<0.89.0>) Need to wait 2.615 sec before changing phase, going to sleep
+
+=INFO REPORT==== 16-Jun-2014::19:39:43 ===
+         ts_launcher:(5:<0.89.0>) Waking up
+
+=INFO REPORT==== 16-Jun-2014::19:39:43 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (3000 users, 0.01); expected duration=300.0 sec
+
+=INFO REPORT==== 16-Jun-2014::19:39:45 ===
+    ts_os_mon_erlang:(3:<0.17301.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:39:45 ===
+** Generic server <0.17301.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.193537>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:39:46 ===
+    ts_os_mon_erlang:(5:<0.17524.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:40:18 ===
+    ts_os_mon_erlang:(3:<0.17524.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:40:18 ===
+** Generic server <0.17524.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.196035>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:40:19 ===
+    ts_os_mon_erlang:(5:<0.17740.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:40:52 ===
+    ts_os_mon_erlang:(3:<0.17740.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:40:52 ===
+** Generic server <0.17740.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.198434>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:40:53 ===
+    ts_os_mon_erlang:(5:<0.18033.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:41:25 ===
+    ts_os_mon_erlang:(3:<0.18033.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:41:25 ===
+** Generic server <0.18033.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.201705>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:41:26 ===
+    ts_os_mon_erlang:(5:<0.18355.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:41:58 ===
+    ts_os_mon_erlang:(3:<0.18355.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:41:58 ===
+** Generic server <0.18355.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.205288>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:41:59 ===
+    ts_os_mon_erlang:(5:<0.18660.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:42:31 ===
+    ts_os_mon_erlang:(3:<0.18660.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:42:31 ===
+** Generic server <0.18660.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.208684>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:42:32 ===
+    ts_os_mon_erlang:(5:<0.18988.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:43:04 ===
+    ts_os_mon_erlang:(3:<0.18988.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:43:04 ===
+** Generic server <0.18988.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.212336>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:43:05 ===
+    ts_os_mon_erlang:(5:<0.19323.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:43:37 ===
+    ts_os_mon_erlang:(3:<0.19323.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:43:37 ===
+** Generic server <0.19323.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.216063>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:43:38 ===
+    ts_os_mon_erlang:(5:<0.19707.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:44:10 ===
+    ts_os_mon_erlang:(3:<0.19707.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:44:10 ===
+** Generic server <0.19707.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.220328>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:44:11 ===
+    ts_os_mon_erlang:(5:<0.20020.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:44:43 ===
+    ts_os_mon_erlang:(3:<0.20020.0>) Fail to start beam on host "localhost" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::19:44:43 ===
+** Generic server <0.20020.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.223816>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::19:44:43 ===
+         ts_launcher:(5:<0.89.0>) Phase duration exceeded, but not all users were launched (344 users, 11.5% of phase)
+
+=INFO REPORT==== 16-Jun-2014::19:44:43 ===
+         ts_launcher:(5:<0.89.0>) This was the last phase, wait for connected users to finish their session
+
+=INFO REPORT==== 16-Jun-2014::19:44:44 ===
+    ts_os_mon_erlang:(5:<0.20250.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::19:44:49 ===
+     ts_launcher_mgr:(5:<0.84.0>) No more active users 'tsung_controller_dec@ip-172-31-46-22' "12063"
+
+=INFO REPORT==== 16-Jun-2014::19:44:49 ===
+              ts_mon:(5:<0.55.0>) stopping monitor (normal)

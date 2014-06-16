@@ -1,0 +1,276 @@
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+    ts_config_server:(5:<0.54.0>) Config server started, logdir is "/home/ubuntu/tsung/log/lis/20140616-1651"
+ 
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+              ts_mon:(5:<0.53.0>) starting monitor, global 
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+           ts_config:(5:<0.54.0>) Reading config file: ./xml/aws_test_lis.xml
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+           ts_config:(5:<0.54.0>) Session name for id 1 is "listen"
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+    ts_config_server:(4:<0.54.0>) SYSINFO:Tsung version: 1.5.1
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+    ts_config_server:(4:<0.54.0>) SYSINFO:Erlang version: Erlang R16B03 (erts-5.10.4) [source] [64-bit] [async-threads:16] [hipe] [kernel-poll:true]
+
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+    ts_config_server:(4:<0.54.0>) SYSINFO:System architecture x86_64-pc-linux-gnu
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+    ts_config_server:(4:<0.54.0>) SYSINFO:Current path: /usr/lib/erlang/lib/tsung-1.5.1/ebin/tsung.beam
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+              ts_mon:(5:<0.55.0>) Activate clients with text backend
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+              ts_mon:(5:<0.55.0>) Starting tsung clients on hosts: [localhost]
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+    ts_config_server:(5:<0.54.0>) Start a launcher on the controller beam localhost
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+  ts_launcher_static:(5:<0.90.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+         ts_launcher:(5:<0.91.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+    ts_config_server:(5:<0.54.0>) All remote beams started, syncing 
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+    ts_config_server:(5:<0.54.0>) Undefined ports_range config 
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 1 for client "localhost" (last ? true): will start 15 users
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 2 for client "localhost" (last ? true): will start 600 users
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 3 for client "localhost" (last ? true): will start 15 users
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 4 for client "localhost" (last ? true): will start 15 users
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 5 for client "localhost" (last ? true): will start 600 users
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 6 for client "localhost" (last ? true): will start 15 users
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+         ts_launcher:(5:<0.91.0>) Expected duration of first phase: 15.0 sec (15 users) 
+
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+         ts_launcher:(2:<0.91.0>) WARNING !!! too few file descriptors available (1024), you should decrease maxusers (currently 50000)
+=INFO REPORT==== 16-Jun-2014::16:51:30 ===
+         ts_launcher:(5:<0.91.0>) Activate launcher (15 users) in 1997 msec 
+
+=INFO REPORT==== 16-Jun-2014::16:51:31 ===
+    ts_os_mon_erlang:(5:<0.77.0>) Starting os_mon beam on host "aws-server1" 
+
+=INFO REPORT==== 16-Jun-2014::16:51:31 ===
+    ts_os_mon_erlang:(5:<0.76.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::16:51:31 ===
+    ts_os_mon_erlang:(5:<0.78.0>) Starting os_mon beam on host "aws-server2" 
+
+=INFO REPORT==== 16-Jun-2014::16:51:40 ===
+         ts_launcher:(4:<0.91.0>) Need to wait 5.857 sec before changing phase, going to sleep
+
+=INFO REPORT==== 16-Jun-2014::16:51:46 ===
+         ts_launcher:(5:<0.91.0>) Waking up
+
+=INFO REPORT==== 16-Jun-2014::16:51:46 ===
+         ts_launcher:(5:<0.91.0>) Start a new arrival phase (600 users, 0.02); expected duration=30.0 sec
+
+=INFO REPORT==== 16-Jun-2014::16:52:03 ===
+    ts_os_mon_erlang:(3:<0.76.0>) Fail to start beam on host "localhost" ({error,
+                                                                           timeout})
+
+=ERROR REPORT==== 16-Jun-2014::16:52:03 ===
+** Generic server <0.76.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.316>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::16:52:04 ===
+    ts_os_mon_erlang:(5:<0.394.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::16:52:10 ===
+    ts_os_mon_erlang:(3:<0.77.0>) Fail to start beam on host "aws-server1" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::16:52:10 ===
+** Generic server <0.77.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.320>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server1",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::16:52:10 ===
+    ts_os_mon_erlang:(3:<0.78.0>) Fail to start beam on host "aws-server2" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::16:52:10 ===
+** Generic server <0.78.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.322>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server2",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::16:52:11 ===
+    ts_os_mon_erlang:(5:<0.530.0>) Starting os_mon beam on host "aws-server1" 
+
+=INFO REPORT==== 16-Jun-2014::16:52:11 ===
+    ts_os_mon_erlang:(5:<0.533.0>) Starting os_mon beam on host "aws-server2" 
+
+=INFO REPORT==== 16-Jun-2014::16:52:16 ===
+         ts_launcher:(5:<0.91.0>) Phase duration exceeded, but not all users were launched (89 users, 14.8% of phase)
+
+=INFO REPORT==== 16-Jun-2014::16:52:16 ===
+         ts_launcher:(5:<0.91.0>) Start a new arrival phase (15 users, 0.001); expected duration=15.0 sec
+
+=INFO REPORT==== 16-Jun-2014::16:52:32 ===
+         ts_launcher:(5:<0.91.0>) Phase duration exceeded, but not all users were launched (2 users, 13.3% of phase)
+
+=INFO REPORT==== 16-Jun-2014::16:52:32 ===
+         ts_launcher:(5:<0.91.0>) Start a new arrival phase (15 users, 0.001); expected duration=15.0 sec
+
+=INFO REPORT==== 16-Jun-2014::16:52:36 ===
+    ts_os_mon_erlang:(3:<0.394.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 16-Jun-2014::16:52:36 ===
+** Generic server <0.394.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.3358>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::16:52:37 ===
+    ts_os_mon_erlang:(5:<0.678.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::16:52:45 ===
+         ts_launcher:(4:<0.91.0>) Need to wait 2.045 sec before changing phase, going to sleep
+
+=INFO REPORT==== 16-Jun-2014::16:52:47 ===
+         ts_launcher:(5:<0.91.0>) Waking up
+
+=INFO REPORT==== 16-Jun-2014::16:52:47 ===
+         ts_launcher:(5:<0.91.0>) Start a new arrival phase (600 users, 0.02); expected duration=30.0 sec
+
+=INFO REPORT==== 16-Jun-2014::16:52:50 ===
+    ts_os_mon_erlang:(3:<0.530.0>) Fail to start beam on host "aws-server1" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::16:52:50 ===
+** Generic server <0.530.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.4679>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server1",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::16:52:50 ===
+    ts_os_mon_erlang:(3:<0.533.0>) Fail to start beam on host "aws-server2" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::16:52:50 ===
+** Generic server <0.533.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.4704>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server2",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::16:52:51 ===
+    ts_os_mon_erlang:(5:<0.746.0>) Starting os_mon beam on host "aws-server1" 
+
+=INFO REPORT==== 16-Jun-2014::16:52:51 ===
+    ts_os_mon_erlang:(5:<0.748.0>) Starting os_mon beam on host "aws-server2" 
+
+=INFO REPORT==== 16-Jun-2014::16:53:09 ===
+    ts_os_mon_erlang:(3:<0.678.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 16-Jun-2014::16:53:09 ===
+** Generic server <0.678.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.6177>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::16:53:10 ===
+    ts_os_mon_erlang:(5:<0.1115.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::16:53:17 ===
+         ts_launcher:(5:<0.91.0>) Phase duration exceeded, but not all users were launched (27 users, 4.5% of phase)
+
+=INFO REPORT==== 16-Jun-2014::16:53:17 ===
+         ts_launcher:(5:<0.91.0>) Start a new arrival phase (15 users, 0.001); expected duration=15.0 sec
+
+=INFO REPORT==== 16-Jun-2014::16:53:23 ===
+    ts_os_mon_erlang:(3:<0.746.0>) Fail to start beam on host "aws-server1" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::16:53:23 ===
+** Generic server <0.746.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.6894>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server1",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::16:53:23 ===
+    ts_os_mon_erlang:(3:<0.748.0>) Fail to start beam on host "aws-server2" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 16-Jun-2014::16:53:23 ===
+** Generic server <0.748.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.6909>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server2",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::16:53:24 ===
+    ts_os_mon_erlang:(5:<0.1296.0>) Starting os_mon beam on host "aws-server1" 
+
+=INFO REPORT==== 16-Jun-2014::16:53:24 ===
+    ts_os_mon_erlang:(5:<0.1300.0>) Starting os_mon beam on host "aws-server2" 
+
+=INFO REPORT==== 16-Jun-2014::16:53:28 ===
+         ts_launcher:(5:<0.91.0>) This was the last phase, wait for connected users to finish their session
+
+=INFO REPORT==== 16-Jun-2014::16:53:42 ===
+    ts_os_mon_erlang:(3:<0.1115.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 16-Jun-2014::16:53:42 ===
+** Generic server <0.1115.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.11221>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 16-Jun-2014::16:53:43 ===
+    ts_os_mon_erlang:(5:<0.1318.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 16-Jun-2014::16:53:55 ===
+     ts_launcher_mgr:(5:<0.86.0>) No more active users 'tsung_controller_lis@ip-172-31-46-22' "8214"
+
+=INFO REPORT==== 16-Jun-2014::16:53:55 ===
+              ts_mon:(5:<0.55.0>) stopping monitor (normal)

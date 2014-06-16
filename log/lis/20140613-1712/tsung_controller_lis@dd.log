@@ -1,0 +1,2004 @@
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) Config server started, logdir is "/root/tsung2/log/lis/20140613-1712"
+ 
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+              ts_mon:(5:<0.52.0>) starting monitor, global 
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+           ts_config:(5:<0.53.0>) Reading config file: ./xml/aws_test_lis.xml
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+           ts_config:(5:<0.53.0>) Session name for id 1 is "listen"
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(4:<0.53.0>) SYSINFO:Tsung version: 1.5.1
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(4:<0.53.0>) SYSINFO:Erlang version: Erlang R16B03 (erts-5.10.4) [source] [64-bit] [async-threads:16] [hipe] [kernel-poll:true]
+
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(4:<0.53.0>) SYSINFO:System architecture x86_64-pc-linux-gnu
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(4:<0.53.0>) SYSINFO:Current path: /usr/lib/erlang/lib/tsung-1.5.1/ebin/tsung.beam
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+              ts_mon:(5:<0.54.0>) Activate clients with text backend
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+              ts_mon:(5:<0.54.0>) Starting tsung clients on hosts: [localhost]
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) Start a launcher on the controller beam localhost
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+  ts_launcher_static:(5:<0.89.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+         ts_launcher:(5:<0.90.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) All remote beams started, syncing 
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) Undefined ports_range config 
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 1 for client "localhost" (last ? true): will start 30 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 2 for client "localhost" (last ? true): will start 600 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 3 for client "localhost" (last ? true): will start 30 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 4 for client "localhost" (last ? true): will start 30 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 5 for client "localhost" (last ? true): will start 600 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 6 for client "localhost" (last ? true): will start 30 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 7 for client "localhost" (last ? true): will start 30 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 8 for client "localhost" (last ? true): will start 600 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 9 for client "localhost" (last ? true): will start 30 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 10 for client "localhost" (last ? true): will start 30 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 11 for client "localhost" (last ? true): will start 600 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 12 for client "localhost" (last ? true): will start 30 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 13 for client "localhost" (last ? true): will start 30 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 14 for client "localhost" (last ? true): will start 600 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 15 for client "localhost" (last ? true): will start 30 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 16 for client "localhost" (last ? true): will start 30 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 17 for client "localhost" (last ? true): will start 600 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+    ts_config_server:(5:<0.53.0>) New arrival phase 18 for client "localhost" (last ? true): will start 30 users
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+         ts_launcher:(5:<0.90.0>) Expected duration of first phase: 30.0 sec (30 users) 
+
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+         ts_launcher:(2:<0.90.0>) WARNING !!! too few file descriptors available (1024), you should decrease maxusers (currently 50000)
+=INFO REPORT==== 13-Jun-2014::17:12:41 ===
+         ts_launcher:(5:<0.90.0>) Activate launcher (30 users) in 1487 msec 
+
+=INFO REPORT==== 13-Jun-2014::17:12:42 ===
+    ts_os_mon_erlang:(5:<0.76.0>) Starting os_mon beam on host "aws-server1" 
+
+=INFO REPORT==== 13-Jun-2014::17:12:42 ===
+    ts_os_mon_erlang:(5:<0.75.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 13-Jun-2014::17:12:42 ===
+    ts_os_mon_erlang:(5:<0.77.0>) Starting os_mon beam on host "aws-server2" 
+
+=INFO REPORT==== 13-Jun-2014::17:13:05 ===
+         ts_launcher:(4:<0.90.0>) Need to wait 7.362 sec before changing phase, going to sleep
+
+=INFO REPORT==== 13-Jun-2014::17:13:12 ===
+         ts_launcher:(5:<0.90.0>) Waking up
+
+=INFO REPORT==== 13-Jun-2014::17:13:12 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (600 users, 0.01); expected duration=60.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:13:14 ===
+    ts_os_mon_erlang:(3:<0.75.0>) Fail to start beam on host "localhost" ({error,
+                                                                           timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:13:14 ===
+** Generic server <0.75.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.314>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:13:15 ===
+    ts_os_mon_erlang:(5:<0.141.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 13-Jun-2014::17:13:28 ===
+    ts_os_mon_erlang:(3:<0.77.0>) Fail to start beam on host "aws-server2" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:13:28 ===
+** Generic server <0.77.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.320>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server2",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:13:28 ===
+    ts_os_mon_erlang:(3:<0.76.0>) Fail to start beam on host "aws-server1" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:13:28 ===
+** Generic server <0.76.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.318>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server1",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:13:29 ===
+    ts_os_mon_erlang:(5:<0.275.0>) Starting os_mon beam on host "aws-server2" 
+
+=INFO REPORT==== 13-Jun-2014::17:13:29 ===
+    ts_os_mon_erlang:(5:<0.276.0>) Starting os_mon beam on host "aws-server1" 
+
+=INFO REPORT==== 13-Jun-2014::17:13:47 ===
+    ts_os_mon_erlang:(3:<0.141.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:13:47 ===
+** Generic server <0.141.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.840>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:13:48 ===
+    ts_os_mon_erlang:(5:<0.476.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 13-Jun-2014::17:14:12 ===
+         ts_launcher:(5:<0.90.0>) Phase duration exceeded, but not all users were launched (64 users, 10.7% of phase)
+
+=INFO REPORT==== 13-Jun-2014::17:14:12 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (30 users, 0.001); expected duration=30.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:14:15 ===
+    ts_os_mon_erlang:(3:<0.275.0>) Fail to start beam on host "aws-server2" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:14:15 ===
+** Generic server <0.275.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.2152>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server2",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:14:15 ===
+    ts_os_mon_erlang:(3:<0.276.0>) Fail to start beam on host "aws-server1" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:14:15 ===
+** Generic server <0.276.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.2157>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server1",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:14:16 ===
+    ts_os_mon_erlang:(5:<0.711.0>) Starting os_mon beam on host "aws-server2" 
+
+=INFO REPORT==== 13-Jun-2014::17:14:16 ===
+    ts_os_mon_erlang:(5:<0.712.0>) Starting os_mon beam on host "aws-server1" 
+
+=INFO REPORT==== 13-Jun-2014::17:14:20 ===
+    ts_os_mon_erlang:(3:<0.476.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:14:20 ===
+** Generic server <0.476.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.4139>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:14:21 ===
+    ts_os_mon_erlang:(5:<0.724.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 13-Jun-2014::17:14:36 ===
+         ts_launcher:(4:<0.90.0>) Need to wait 6.439 sec before changing phase, going to sleep
+
+=INFO REPORT==== 13-Jun-2014::17:14:42 ===
+         ts_launcher:(5:<0.90.0>) Waking up
+
+=INFO REPORT==== 13-Jun-2014::17:14:42 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (30 users, 0.001); expected duration=30.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:14:53 ===
+    ts_os_mon_erlang:(3:<0.724.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:14:53 ===
+** Generic server <0.724.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.6572>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:14:54 ===
+    ts_os_mon_erlang:(5:<0.769.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 13-Jun-2014::17:15:02 ===
+    ts_os_mon_erlang:(3:<0.711.0>) Fail to start beam on host "aws-server2" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:15:02 ===
+** Generic server <0.711.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.6487>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server2",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:15:02 ===
+    ts_os_mon_erlang:(3:<0.712.0>) Fail to start beam on host "aws-server1" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:15:02 ===
+** Generic server <0.712.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.6492>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server1",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:15:03 ===
+    ts_os_mon_erlang:(5:<0.792.0>) Starting os_mon beam on host "aws-server2" 
+
+=INFO REPORT==== 13-Jun-2014::17:15:03 ===
+    ts_os_mon_erlang:(5:<0.793.0>) Starting os_mon beam on host "aws-server1" 
+
+=INFO REPORT==== 13-Jun-2014::17:15:07 ===
+         ts_launcher:(4:<0.90.0>) Need to wait 4.962 sec before changing phase, going to sleep
+
+=INFO REPORT==== 13-Jun-2014::17:15:12 ===
+         ts_launcher:(5:<0.90.0>) Waking up
+
+=INFO REPORT==== 13-Jun-2014::17:15:12 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (600 users, 0.01); expected duration=60.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:15:26 ===
+    ts_os_mon_erlang:(3:<0.769.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:15:26 ===
+** Generic server <0.769.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.7094>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:15:27 ===
+    ts_os_mon_erlang:(5:<0.942.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 13-Jun-2014::17:15:49 ===
+    ts_os_mon_erlang:(3:<0.792.0>) Fail to start beam on host "aws-server2" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:15:49 ===
+** Generic server <0.792.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.7302>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server2",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:15:49 ===
+    ts_os_mon_erlang:(3:<0.793.0>) Fail to start beam on host "aws-server1" ({error,
+                                                                              timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:15:49 ===
+** Generic server <0.793.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.7307>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server1",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:15:50 ===
+    ts_os_mon_erlang:(5:<0.1177.0>) Starting os_mon beam on host "aws-server2" 
+
+=INFO REPORT==== 13-Jun-2014::17:15:50 ===
+    ts_os_mon_erlang:(5:<0.1178.0>) Starting os_mon beam on host "aws-server1" 
+
+=INFO REPORT==== 13-Jun-2014::17:15:59 ===
+    ts_os_mon_erlang:(3:<0.942.0>) Fail to start beam on host "localhost" ({error,
+                                                                            timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:15:59 ===
+** Generic server <0.942.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.9510>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:16:00 ===
+    ts_os_mon_erlang:(5:<0.1304.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 13-Jun-2014::17:16:11 ===
+         ts_launcher:(4:<0.90.0>) Need to wait 0.852 sec before changing phase, going to sleep
+
+=INFO REPORT==== 13-Jun-2014::17:16:12 ===
+         ts_launcher:(5:<0.90.0>) Waking up
+
+=INFO REPORT==== 13-Jun-2014::17:16:12 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (30 users, 0.001); expected duration=30.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:16:32 ===
+    ts_os_mon_erlang:(3:<0.1304.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:16:32 ===
+** Generic server <0.1304.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.14620>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:16:33 ===
+    ts_os_mon_erlang:(5:<0.1467.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 13-Jun-2014::17:16:36 ===
+    ts_os_mon_erlang:(3:<0.1177.0>) Fail to start beam on host "aws-server2" ({error,
+                                                                               timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:16:36 ===
+** Generic server <0.1177.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.12694>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server2",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:16:36 ===
+    ts_os_mon_erlang:(3:<0.1178.0>) Fail to start beam on host "aws-server1" ({error,
+                                                                               timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:16:36 ===
+** Generic server <0.1178.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.12699>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server1",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:16:37 ===
+    ts_os_mon_erlang:(5:<0.1474.0>) Starting os_mon beam on host "aws-server2" 
+
+=INFO REPORT==== 13-Jun-2014::17:16:37 ===
+    ts_os_mon_erlang:(5:<0.1475.0>) Starting os_mon beam on host "aws-server1" 
+
+=INFO REPORT==== 13-Jun-2014::17:16:40 ===
+         ts_launcher:(4:<0.90.0>) Need to wait 1.598 sec before changing phase, going to sleep
+
+=INFO REPORT==== 13-Jun-2014::17:16:42 ===
+         ts_launcher:(5:<0.90.0>) Waking up
+
+=INFO REPORT==== 13-Jun-2014::17:16:42 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (30 users, 0.001); expected duration=30.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:17:05 ===
+    ts_os_mon_erlang:(3:<0.1467.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:17:05 ===
+** Generic server <0.1467.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.18722>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:17:06 ===
+    ts_os_mon_erlang:(5:<0.1515.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 13-Jun-2014::17:17:10 ===
+         ts_launcher:(4:<0.90.0>) Need to wait 1.822 sec before changing phase, going to sleep
+
+=INFO REPORT==== 13-Jun-2014::17:17:12 ===
+         ts_launcher:(5:<0.90.0>) Waking up
+
+=INFO REPORT==== 13-Jun-2014::17:17:12 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (600 users, 0.01); expected duration=60.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:17:23 ===
+    ts_os_mon_erlang:(3:<0.1474.0>) Fail to start beam on host "aws-server2" ({error,
+                                                                               timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:17:23 ===
+** Generic server <0.1474.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.18987>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server2",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:17:23 ===
+    ts_os_mon_erlang:(3:<0.1475.0>) Fail to start beam on host "aws-server1" ({error,
+                                                                               timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:17:23 ===
+** Generic server <0.1475.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.18992>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server1",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:17:24 ===
+    ts_os_mon_erlang:(5:<0.1609.0>) Starting os_mon beam on host "aws-server2" 
+
+=INFO REPORT==== 13-Jun-2014::17:17:24 ===
+    ts_os_mon_erlang:(5:<0.1611.0>) Starting os_mon beam on host "aws-server1" 
+
+=INFO REPORT==== 13-Jun-2014::17:17:38 ===
+    ts_os_mon_erlang:(3:<0.1515.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:17:38 ===
+** Generic server <0.1515.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.19753>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:17:39 ===
+    ts_os_mon_erlang:(5:<0.1791.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 13-Jun-2014::17:18:03 ===
+    ts_os_mon_erlang:(3:<0.1609.0>) Fail to start beam on host "aws-server2" ({error,
+                                                                               timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:18:03 ===
+** Generic server <0.1609.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.20687>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server2",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:18:03 ===
+    ts_os_mon_erlang:(3:<0.1611.0>) Fail to start beam on host "aws-server1" ({error,
+                                                                               timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:18:03 ===
+** Generic server <0.1611.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.20702>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"aws-server1",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:18:04 ===
+    ts_os_mon_erlang:(5:<0.2060.0>) Starting os_mon beam on host "aws-server2" 
+
+=ERROR REPORT==== 13-Jun-2014::17:18:04 ===
+Error in process <0.2075.0> on node 'tsung_controller_lis@dd' with exit value: {emfile,[{erlang,open_port,[{spawn,"/usr/bin/ssh aws-server2 erl -detached -noinput -master tsung_controller_lis@dd  -sname os_mon@aws-server2 -s slave slave_start tsung_controller_lis@dd slave_waiter... 
+
+
+=INFO REPORT==== 13-Jun-2014::17:18:04 ===
+    ts_os_mon_erlang:(5:<0.2063.0>) Starting os_mon beam on host "aws-server1" 
+
+=ERROR REPORT==== 13-Jun-2014::17:18:04 ===
+Error in process <0.2078.0> on node 'tsung_controller_lis@dd' with exit value: {emfile,[{erlang,open_port,[{spawn,"/usr/bin/ssh aws-server1 erl -detached -noinput -master tsung_controller_lis@dd  -sname os_mon@aws-server1 -s slave slave_start tsung_controller_lis@dd slave_waiter... 
+
+
+=INFO REPORT==== 13-Jun-2014::17:18:11 ===
+    ts_os_mon_erlang:(3:<0.1791.0>) Fail to start beam on host "localhost" ({error,
+                                                                             timeout})
+
+=ERROR REPORT==== 13-Jun-2014::17:18:11 ===
+** Generic server <0.1791.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.22485>,start_beam}
+** When Server state == {state,{global,ts_mon},
+                               10000,undefined,"localhost",undefined,[]}
+** Reason for termination == 
+** {error,timeout}
+
+=INFO REPORT==== 13-Jun-2014::17:18:11 ===
+         ts_launcher:(4:<0.90.0>) Need to wait 0.786 sec before changing phase, going to sleep
+
+=INFO REPORT==== 13-Jun-2014::17:18:12 ===
+    ts_os_mon_erlang:(5:<0.2161.0>) Starting os_mon beam on host "localhost" 
+
+=ERROR REPORT==== 13-Jun-2014::17:18:12 ===
+Error in process <0.2168.0> on node 'tsung_controller_lis@dd' with exit value: {emfile,[{erlang,open_port,[{spawn,"/usr/bin/ssh localhost erl -detached -noinput -master tsung_controller_lis@dd  -sname os_mon@localhost -s slave slave_start tsung_controller_lis@dd slave_waiter_0  ... 
+
+
+=INFO REPORT==== 13-Jun-2014::17:18:12 ===
+         ts_launcher:(5:<0.90.0>) Waking up
+
+=INFO REPORT==== 13-Jun-2014::17:18:12 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (30 users, 0.001); expected duration=30.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:18:41 ===
+         ts_launcher:(4:<0.90.0>) Need to wait 1.051 sec before changing phase, going to sleep
+
+=INFO REPORT==== 13-Jun-2014::17:18:42 ===
+         ts_launcher:(5:<0.90.0>) Waking up
+
+=INFO REPORT==== 13-Jun-2014::17:18:42 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (30 users, 0.001); expected duration=30.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:18:59 ===
+           ts_client:(5:<0.2009.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694279,
+                                                             96078}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:18:59 ===
+           ts_client:(5:<0.2010.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694279,
+                                                             214083}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:18:59 ===
+           ts_client:(5:<0.2011.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694279,
+                                                             388141}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:18:59 ===
+           ts_client:(5:<0.2012.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694279,
+                                                             465103}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:18:59 ===
+           ts_client:(5:<0.2013.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694279,
+                                                             491069}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:18:59 ===
+           ts_client:(5:<0.2014.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694279,
+                                                             872084}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:18:59 ===
+           ts_client:(5:<0.2015.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694279,
+                                                             896064}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:00 ===
+           ts_client:(5:<0.2016.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694280,
+                                                             135080}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:00 ===
+           ts_client:(5:<0.2017.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694280,
+                                                             374111}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:00 ===
+           ts_client:(5:<0.2018.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694280,
+                                                             427088}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:00 ===
+           ts_client:(5:<0.2019.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694280,
+                                                             470083}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:00 ===
+           ts_client:(5:<0.2020.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694280,
+                                                             525081}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:00 ===
+           ts_client:(5:<0.2021.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694280,
+                                                             601095}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:00 ===
+           ts_client:(5:<0.2022.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694280,
+                                                             661092}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:00 ===
+           ts_client:(5:<0.2023.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694280,
+                                                             699080}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:00 ===
+           ts_client:(5:<0.2025.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694280,
+                                                             746070}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:00 ===
+           ts_client:(5:<0.2026.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694280,
+                                                             786085}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:00 ===
+           ts_client:(5:<0.2027.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694280,
+                                                             795065}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:00 ===
+           ts_client:(5:<0.2028.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694280,
+                                                             803089}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:00 ===
+           ts_client:(5:<0.2029.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694280,
+                                                             881089}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2031.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             35084}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2032.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             154087}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2033.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             166083}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2034.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             194101}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2035.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             234085}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2036.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             322081}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2037.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             345071}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2039.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             505101}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2040.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             521090}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2041.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             577133}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2042.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             671105}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2043.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             703105}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2024.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694280,
+                                                             712083}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2044.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             814120}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2045.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             841116}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2046.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             892188}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2047.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             899064}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2048.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694281,
+                                                             921136}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:01 ===
+           ts_client:(5:<0.2030.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694280,
+                                                             981088}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:02 ===
+           ts_client:(5:<0.2049.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694282,
+                                                             16269}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:02 ===
+           ts_client:(5:<0.2050.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694282,
+                                                             340111}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:02 ===
+           ts_client:(5:<0.2051.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694282,
+                                                             458114}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:02 ===
+           ts_client:(5:<0.2052.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694282,
+                                                             804195}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:02 ===
+           ts_client:(5:<0.2053.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694282,
+                                                             807076}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:02 ===
+           ts_client:(5:<0.2054.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694282,
+                                                             838096}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:03 ===
+           ts_client:(5:<0.2055.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694282,
+                                                             984163}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:03 ===
+           ts_client:(5:<0.2057.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694283,
+                                                             490084}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:03 ===
+           ts_client:(5:<0.2064.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694283,
+                                                             868153}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:03 ===
+           ts_client:(5:<0.2065.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694283,
+                                                             913083}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:04 ===
+           ts_client:(5:<0.2067.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694284,
+                                                             165095}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:04 ===
+           ts_client:(5:<0.2068.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694284,
+                                                             241088}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:04 ===
+           ts_client:(5:<0.2069.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694284,
+                                                             253089}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:04 ===
+           ts_client:(5:<0.2070.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694284,
+                                                             367120}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:04 ===
+           ts_client:(5:<0.2056.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694283,
+                                                             376083}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:04 ===
+           ts_client:(5:<0.2071.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694284,
+                                                             491118}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:04 ===
+           ts_client:(5:<0.2072.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694284,
+                                                             497110}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:04 ===
+           ts_client:(5:<0.2079.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694284,
+                                                             527113}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:04 ===
+           ts_client:(5:<0.2080.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694284,
+                                                             754089}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:04 ===
+           ts_client:(5:<0.2081.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694284,
+                                                             885105}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:04 ===
+           ts_client:(5:<0.2082.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694284,
+                                                             912154}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:04 ===
+           ts_client:(5:<0.2066.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694283,
+                                                             968147}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:05 ===
+           ts_client:(5:<0.2083.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             14083}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:05 ===
+           ts_client:(5:<0.2084.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             92136}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:05 ===
+           ts_client:(5:<0.2085.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             99066}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:05 ===
+           ts_client:(5:<0.2087.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             170084}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:05 ===
+           ts_client:(5:<0.2088.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             212140}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:05 ===
+           ts_client:(5:<0.2089.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             270100}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:05 ===
+           ts_client:(5:<0.2090.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             292083}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:05 ===
+           ts_client:(5:<0.2091.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             425090}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:05 ===
+           ts_client:(5:<0.2093.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             450088}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:05 ===
+           ts_client:(5:<0.2094.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             464072}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:05 ===
+           ts_client:(5:<0.2095.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             484074}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:05 ===
+           ts_client:(5:<0.2096.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             593090}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:05 ===
+           ts_client:(5:<0.2097.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             618122}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:05 ===
+           ts_client:(5:<0.2098.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             634105}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:05 ===
+           ts_client:(5:<0.2099.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             681147}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:06 ===
+           ts_client:(5:<0.2086.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             148126}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:06 ===
+           ts_client:(5:<0.2092.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694285,
+                                                             433075}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:07 ===
+           ts_client:(5:<0.2115.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694287,
+                                                             475085}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:07 ===
+           ts_client:(5:<0.2117.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694287,
+                                                             972133}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:08 ===
+           ts_client:(5:<0.2119.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694288,
+                                                             151077}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:08 ===
+           ts_client:(5:<0.2122.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694288,
+                                                             372188}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:08 ===
+           ts_client:(5:<0.2124.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694288,
+                                                             657084}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:08 ===
+           ts_client:(5:<0.2125.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694288,
+                                                             919099}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:08 ===
+           ts_client:(5:<0.2126.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694288,
+                                                             952079}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:08 ===
+           ts_client:(5:<0.2127.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694288,
+                                                             968079}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:09 ===
+           ts_client:(5:<0.2120.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694288,
+                                                             160064}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:09 ===
+           ts_client:(5:<0.2128.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694289,
+                                                             420134}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:09 ===
+           ts_client:(5:<0.2129.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694289,
+                                                             445105}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:09 ===
+           ts_client:(5:<0.2123.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694288,
+                                                             523082}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:09 ===
+           ts_client:(5:<0.2130.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694289,
+                                                             606094}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:09 ===
+           ts_client:(5:<0.2131.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694289,
+                                                             622073}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:09 ===
+           ts_client:(5:<0.2132.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694289,
+                                                             724144}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:09 ===
+           ts_client:(5:<0.2133.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694289,
+                                                             768677}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:09 ===
+           ts_client:(5:<0.2134.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694289,
+                                                             927085}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2136.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             27062}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2137.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             71073}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2138.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             235083}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2139.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             269091}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2140.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             354085}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2141.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             364060}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2143.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             529096}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2144.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             559276}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2146.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             561068}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2145.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             559248}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2147.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             602533}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2148.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             694089}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2149.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             812088}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2150.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             836150}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2151.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             851069}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:10 ===
+           ts_client:(5:<0.2152.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             906080}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:11 ===
+           ts_client:(5:<0.2153.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             986076}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:11 ===
+           ts_client:(5:<0.2135.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             23087}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:11 ===
+           ts_client:(5:<0.2154.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694291,
+                                                             37065}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:11 ===
+           ts_client:(5:<0.2155.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694291,
+                                                             155529}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:11 ===
+           ts_client:(5:<0.2156.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694291,
+                                                             267091}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:11 ===
+           ts_client:(5:<0.2157.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694291,
+                                                             416129}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:11 ===
+           ts_client:(5:<0.2142.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694290,
+                                                             505086}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:11 ===
+           ts_client:(5:<0.2162.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694291,
+                                                             579067}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:11 ===
+           ts_client:(5:<0.2163.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694291,
+                                                             713080}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:11 ===
+         ts_launcher:(4:<0.90.0>) Need to wait 0.786 sec before changing phase, going to sleep
+
+=INFO REPORT==== 13-Jun-2014::17:19:11 ===
+           ts_client:(5:<0.2164.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694291,
+                                                             787091}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:11 ===
+           ts_client:(5:<0.2165.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694291,
+                                                             790063}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:19:12 ===
+         ts_launcher:(5:<0.90.0>) Waking up
+
+=INFO REPORT==== 13-Jun-2014::17:19:12 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (600 users, 0.01); expected duration=60.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:19:12 ===
+           ts_client:(5:<0.2169.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694292,
+                                                             596157}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:20:12 ===
+         ts_launcher:(5:<0.90.0>) Phase duration exceeded, but not all users were launched (8 users, 1.3% of phase)
+
+=INFO REPORT==== 13-Jun-2014::17:20:12 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (30 users, 0.001); expected duration=30.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:20:36 ===
+         ts_launcher:(4:<0.90.0>) Need to wait 6.138 sec before changing phase, going to sleep
+
+=INFO REPORT==== 13-Jun-2014::17:20:42 ===
+         ts_launcher:(5:<0.90.0>) Waking up
+
+=INFO REPORT==== 13-Jun-2014::17:20:42 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (30 users, 0.001); expected duration=30.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:21:11 ===
+         ts_launcher:(4:<0.90.0>) Need to wait 1.747 sec before changing phase, going to sleep
+
+=INFO REPORT==== 13-Jun-2014::17:21:12 ===
+         ts_launcher:(5:<0.90.0>) Waking up
+
+=INFO REPORT==== 13-Jun-2014::17:21:12 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (600 users, 0.01); expected duration=60.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:22:12 ===
+         ts_launcher:(5:<0.90.0>) Phase duration exceeded, but not all users were launched (16 users, 2.7% of phase)
+
+=INFO REPORT==== 13-Jun-2014::17:22:12 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (30 users, 0.001); expected duration=30.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:22:41 ===
+         ts_launcher:(4:<0.90.0>) Need to wait 1.056 sec before changing phase, going to sleep
+
+=INFO REPORT==== 13-Jun-2014::17:22:42 ===
+         ts_launcher:(5:<0.90.0>) Waking up
+
+=INFO REPORT==== 13-Jun-2014::17:22:42 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (30 users, 0.001); expected duration=30.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:23:13 ===
+         ts_launcher:(5:<0.90.0>) Phase duration exceeded, but not all users were launched (4 users, 13.3% of phase)
+
+=INFO REPORT==== 13-Jun-2014::17:23:13 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (600 users, 0.01); expected duration=60.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:24:13 ===
+         ts_launcher:(5:<0.90.0>) Phase duration exceeded, but not all users were launched (4 users, 0.7% of phase)
+
+=INFO REPORT==== 13-Jun-2014::17:24:13 ===
+         ts_launcher:(5:<0.90.0>) Start a new arrival phase (30 users, 0.001); expected duration=30.0 sec
+
+=INFO REPORT==== 13-Jun-2014::17:24:44 ===
+         ts_launcher:(5:<0.90.0>) Phase duration exceeded, but not all users were launched (5 users, 16.7% of phase)
+
+=INFO REPORT==== 13-Jun-2014::17:24:44 ===
+         ts_launcher:(5:<0.90.0>) This was the last phase, wait for connected users to finish their session
+
+=INFO REPORT==== 13-Jun-2014::17:24:57 ===
+           ts_client:(5:<0.3974.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694637,
+                                                             744083}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:57 ===
+           ts_client:(5:<0.3975.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694637,
+                                                             907078}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:57 ===
+           ts_client:(5:<0.3976.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694637,
+                                                             937057}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:58 ===
+           ts_client:(5:<0.3977.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694638,
+                                                             142085}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:58 ===
+           ts_client:(5:<0.3978.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694638,
+                                                             335126}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:58 ===
+           ts_client:(5:<0.3979.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694638,
+                                                             372160}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:58 ===
+           ts_client:(5:<0.3980.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694638,
+                                                             514104}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:58 ===
+           ts_client:(5:<0.3981.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694638,
+                                                             702106}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:58 ===
+           ts_client:(5:<0.3982.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694638,
+                                                             762088}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:58 ===
+           ts_client:(5:<0.3983.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694638,
+                                                             781088}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:58 ===
+           ts_client:(5:<0.3984.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694638,
+                                                             851087}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:59 ===
+           ts_client:(5:<0.3985.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694639,
+                                                             60180}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:59 ===
+           ts_client:(5:<0.3986.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694639,
+                                                             187118}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:59 ===
+           ts_client:(5:<0.3987.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694639,
+                                                             290114}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:59 ===
+           ts_client:(5:<0.3988.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694639,
+                                                             530100}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:59 ===
+           ts_client:(5:<0.3989.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694639,
+                                                             695112}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:24:59 ===
+           ts_client:(5:<0.3990.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694639,
+                                                             957125}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:00 ===
+           ts_client:(5:<0.3991.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694639,
+                                                             997077}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:00 ===
+           ts_client:(5:<0.3992.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694640,
+                                                             9070}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:00 ===
+           ts_client:(5:<0.3993.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694640,
+                                                             30080}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:00 ===
+           ts_client:(5:<0.3994.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694640,
+                                                             106087}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:00 ===
+           ts_client:(5:<0.3995.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694640,
+                                                             207102}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:00 ===
+           ts_client:(5:<0.3996.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694640,
+                                                             503102}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:00 ===
+           ts_client:(5:<0.3997.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694640,
+                                                             539078}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:00 ===
+           ts_client:(5:<0.3999.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694640,
+                                                             567061}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:00 ===
+           ts_client:(5:<0.4001.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694640,
+                                                             607103}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:00 ===
+           ts_client:(5:<0.4000.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694640,
+                                                             607124}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:00 ===
+           ts_client:(5:<0.4002.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694640,
+                                                             654129}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:00 ===
+           ts_client:(5:<0.4003.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694640,
+                                                             698088}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:00 ===
+           ts_client:(5:<0.4004.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694640,
+                                                             785079}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:00 ===
+           ts_client:(5:<0.4005.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694640,
+                                                             867082}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:01 ===
+           ts_client:(5:<0.4006.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694640,
+                                                             995108}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:01 ===
+           ts_client:(5:<0.4007.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694641,
+                                                             354082}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:01 ===
+           ts_client:(5:<0.4009.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694641,
+                                                             492463}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:01 ===
+           ts_client:(5:<0.3998.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694640,
+                                                             551068}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:01 ===
+           ts_client:(5:<0.4010.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694641,
+                                                             555086}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:01 ===
+           ts_client:(5:<0.4011.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694641,
+                                                             810095}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:01 ===
+           ts_client:(5:<0.4012.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694641,
+                                                             832154}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:01 ===
+           ts_client:(5:<0.4013.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694641,
+                                                             856125}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:01 ===
+           ts_client:(5:<0.4015.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694641,
+                                                             929081}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:02 ===
+           ts_client:(5:<0.4016.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694642,
+                                                             22083}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:02 ===
+           ts_client:(5:<0.4017.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694642,
+                                                             247093}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:02 ===
+           ts_client:(5:<0.4018.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694642,
+                                                             277086}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:02 ===
+           ts_client:(5:<0.4019.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694642,
+                                                             339095}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:02 ===
+           ts_client:(5:<0.4020.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694642,
+                                                             428137}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:02 ===
+           ts_client:(5:<0.4021.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694642,
+                                                             462073}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:02 ===
+           ts_client:(5:<0.4022.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694642,
+                                                             539111}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:02 ===
+           ts_client:(5:<0.4023.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694642,
+                                                             864176}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:02 ===
+           ts_client:(5:<0.4014.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694641,
+                                                             910094}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:03 ===
+           ts_client:(5:<0.4024.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694643,
+                                                             606}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:03 ===
+           ts_client:(5:<0.4025.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694643,
+                                                             49198}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:03 ===
+           ts_client:(5:<0.4026.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694643,
+                                                             212113}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:03 ===
+           ts_client:(5:<0.4027.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694643,
+                                                             288082}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:03 ===
+           ts_client:(5:<0.4028.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694643,
+                                                             719090}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:03 ===
+           ts_client:(5:<0.4029.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694643,
+                                                             773171}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:03 ===
+           ts_client:(5:<0.4030.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694643,
+                                                             799094}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:04 ===
+           ts_client:(5:<0.4032.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694644,
+                                                             183095}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:04 ===
+           ts_client:(5:<0.4033.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694644,
+                                                             205081}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:04 ===
+           ts_client:(5:<0.4034.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694644,
+                                                             228133}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:04 ===
+           ts_client:(5:<0.4035.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694644,
+                                                             481119}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:04 ===
+           ts_client:(5:<0.4036.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694644,
+                                                             576219}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:04 ===
+           ts_client:(5:<0.4038.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694644,
+                                                             689165}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:04 ===
+           ts_client:(5:<0.4037.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694644,
+                                                             689204}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:04 ===
+           ts_client:(5:<0.4039.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694644,
+                                                             785089}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:04 ===
+           ts_client:(5:<0.4031.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694643,
+                                                             886086}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:04 ===
+           ts_client:(5:<0.4040.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694644,
+                                                             897090}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:04 ===
+           ts_client:(5:<0.4041.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694644,
+                                                             922067}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:04 ===
+           ts_client:(5:<0.4042.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694644,
+                                                             946084}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:05 ===
+           ts_client:(5:<0.4043.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694645,
+                                                             86088}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:05 ===
+           ts_client:(5:<0.4044.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694645,
+                                                             126240}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:05 ===
+           ts_client:(5:<0.4045.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694645,
+                                                             128061}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:05 ===
+           ts_client:(5:<0.4046.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694645,
+                                                             259170}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:05 ===
+           ts_client:(5:<0.4047.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694645,
+                                                             261065}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:05 ===
+           ts_client:(5:<0.4048.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694645,
+                                                             373102}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:05 ===
+           ts_client:(5:<0.4049.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694645,
+                                                             612201}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:05 ===
+           ts_client:(5:<0.4050.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694645,
+                                                             678092}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:05 ===
+           ts_client:(5:<0.4053.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694645,
+                                                             846099}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:06 ===
+           ts_client:(5:<0.4056.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694646,
+                                                             52411}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:06 ===
+           ts_client:(5:<0.4057.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694646,
+                                                             67106}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:07 ===
+           ts_client:(5:<0.4080.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694647,
+                                                             566080}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:07 ===
+           ts_client:(5:<0.4081.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694647,
+                                                             777116}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:08 ===
+           ts_client:(5:<0.4083.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694648,
+                                                             110084}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:08 ===
+           ts_client:(5:<0.4085.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694648,
+                                                             465115}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:08 ===
+           ts_client:(5:<0.4086.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694648,
+                                                             507075}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:08 ===
+           ts_client:(5:<0.4087.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694648,
+                                                             654088}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:08 ===
+           ts_client:(5:<0.4088.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694648,
+                                                             820138}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:08 ===
+           ts_client:(5:<0.4089.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694648,
+                                                             869080}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:08 ===
+           ts_client:(5:<0.4090.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694648,
+                                                             918091}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:09 ===
+           ts_client:(5:<0.4093.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694649,
+                                                             62055}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:09 ===
+           ts_client:(5:<0.4094.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694649,
+                                                             139097}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:09 ===
+           ts_client:(5:<0.4095.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694649,
+                                                             268189}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:09 ===
+           ts_client:(5:<0.4096.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694649,
+                                                             305130}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:09 ===
+           ts_client:(5:<0.4097.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694649,
+                                                             305107}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:09 ===
+           ts_client:(5:<0.4098.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694649,
+                                                             721084}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:09 ===
+           ts_client:(5:<0.4099.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694649,
+                                                             734078}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:09 ===
+           ts_client:(5:<0.4100.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694649,
+                                                             866080}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:09 ===
+           ts_client:(5:<0.4101.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694649,
+                                                             894075}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4102.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             73110}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4103.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             91061}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4104.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             109051}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4105.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             111224}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4106.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             163082}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4107.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             189065}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4108.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             238067}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4109.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             260066}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4110.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             327074}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4111.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             405091}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4112.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             424065}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4113.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             497075}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4114.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             514060}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4115.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             533063}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4116.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             579129}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4117.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             581068}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4118.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             635071}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4119.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             683071}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4120.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             781069}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4121.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             825070}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:10 ===
+           ts_client:(5:<0.4122.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694650,
+                                                             903080}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:11 ===
+           ts_client:(5:<0.4123.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694651,
+                                                             26087}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:11 ===
+           ts_client:(5:<0.4125.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694651,
+                                                             219101}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:11 ===
+           ts_client:(5:<0.4127.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694651,
+                                                             301072}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:11 ===
+           ts_client:(5:<0.4128.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694651,
+                                                             321068}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:11 ===
+           ts_client:(5:<0.4130.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694651,
+                                                             895103}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:11 ===
+           ts_client:(5:<0.4131.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694651,
+                                                             922066}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:12 ===
+           ts_client:(5:<0.4132.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694652,
+                                                             120087}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:12 ===
+           ts_client:(5:<0.4124.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694651,
+                                                             187090}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:12 ===
+           ts_client:(5:<0.4126.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694651,
+                                                             219081}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:12 ===
+           ts_client:(5:<0.4134.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694652,
+                                                             250066}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:12 ===
+           ts_client:(5:<0.4135.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694652,
+                                                             517111}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:12 ===
+           ts_client:(5:<0.4136.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694652,
+                                                             665085}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:12 ===
+           ts_client:(5:<0.4137.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694652,
+                                                             676069}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:12 ===
+           ts_client:(5:<0.4138.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694652,
+                                                             701069}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:12 ===
+           ts_client:(5:<0.4139.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694652,
+                                                             740068}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:12 ===
+           ts_client:(5:<0.4140.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694652,
+                                                             770063}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:12 ===
+           ts_client:(5:<0.4141.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694652,
+                                                             865416}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:13 ===
+           ts_client:(5:<0.4142.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694653,
+                                                             11081}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:13 ===
+           ts_client:(5:<0.4143.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694653,
+                                                             39062}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:13 ===
+           ts_client:(5:<0.4144.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694653,
+                                                             61062}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:13 ===
+           ts_client:(5:<0.4145.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694653,
+                                                             117079}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:13 ===
+           ts_client:(5:<0.4146.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694653,
+                                                             126062}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:13 ===
+           ts_client:(5:<0.4133.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694652,
+                                                             246092}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:13 ===
+           ts_client:(5:<0.4147.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694653,
+                                                             275095}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:13 ===
+           ts_client:(5:<0.4148.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694653,
+                                                             318068}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:13 ===
+           ts_client:(5:<0.4149.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694653,
+                                                             366073}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:13 ===
+           ts_client:(5:<0.4150.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694653,
+                                                             433085}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:13 ===
+           ts_client:(5:<0.4151.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694653,
+                                                             583086}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:13 ===
+           ts_client:(5:<0.4152.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694653,
+                                                             726087}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:13 ===
+           ts_client:(5:<0.4153.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694653,
+                                                             837086}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:14 ===
+           ts_client:(5:<0.4154.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694654,
+                                                             519083}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:25:15 ===
+           ts_client:(5:<0.4155.0>) Pending transactions: [{tr_listen,
+                                                            {1402,694655,
+                                                             891106}}], compute transaction time
+
+=INFO REPORT==== 13-Jun-2014::17:27:49 ===
+     ts_launcher_mgr:(5:<0.85.0>) No more active users tsung_controller_lis@dd "18009"
+
+=INFO REPORT==== 13-Jun-2014::17:27:49 ===
+              ts_mon:(5:<0.54.0>) stopping monitor (normal)

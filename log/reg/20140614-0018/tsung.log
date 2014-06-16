@@ -1,0 +1,398 @@
+# stats: dump at 1402705117
+stats: users 8 8
+stats: {freemem,"os_mon@localhost"} 1 461.05859375 0 461.05859375 461.05859375 0 0
+stats: {cpu,"os_mon@localhost"} 1 1.0029570854808574 0 1.0029570854808574 1.0029570854808574 0 0
+stats: {load,"os_mon@localhost"} 1 0.23828125 0 0.23828125 0.23828125 0 0
+stats: users_count 8 8
+stats: finish_users_count 0 0
+stats: error_connect_nxdomain 8 8
+# stats: dump at 1402705127
+stats: users 19 19
+stats: {freemem,"os_mon@localhost"} 1 468.07421875 0.0 468.07421875 461.05859375 461.05859375 1
+stats: {recvpackets,"os_mon@localhost"} 1 38 0 38 38 0 0
+stats: {sentpackets,"os_mon@localhost"} 1 31 0 31 31 0 0
+stats: {cpu,"os_mon@localhost"} 1 0.8 0.0 1.0029570854808574 0.8 1.0029570854808574 1
+stats: {load,"os_mon@localhost"} 1 0.19921875 0.0 0.23828125 0.19921875 0.23828125 1
+stats: users_count 11 19
+stats: finish_users_count 0 0
+stats: error_connect_nxdomain 18 26
+# stats: dump at 1402705137
+stats: users 30 30
+stats: {freemem,"os_mon@localhost"} 1 468.0390625 0.0 468.07421875 461.05859375 464.56640625 2
+stats: {recvpackets,"os_mon@localhost"} 1 38.0 0.0 38 38 38.0 1
+stats: {sentpackets,"os_mon@localhost"} 1 38.0 0.0 38 31 31.0 1
+stats: {cpu,"os_mon@localhost"} 1 1.1928429423459244 0.0 1.1928429423459244 0.8 0.9014785427404287 2
+stats: {load,"os_mon@localhost"} 1 0.171875 0.0 0.23828125 0.171875 0.21875 2
+stats: users_count 11 30
+stats: finish_users_count 0 0
+stats: error_connect_nxdomain 22 48
+# stats: dump at 1402705147
+stats: users 127 127
+stats: {freemem,"os_mon@localhost"} 1 467.57421875 0.0 468.07421875 461.05859375 465.7239583333333 3
+stats: {recvpackets,"os_mon@localhost"} 1 60.0 0.0 60 38 38.0 2
+stats: {sentpackets,"os_mon@localhost"} 1 60.0 0.0 60 31 34.5 2
+stats: {cpu,"os_mon@localhost"} 1 1.0967098703888334 0.0 1.1928429423459244 0.8 0.9986000092755939 3
+stats: {load,"os_mon@localhost"} 1 0.140625 0.0 0.23828125 0.140625 0.203125 3
+stats: users_count 97 127
+stats: finish_users_count 0 0
+stats: error_connect_nxdomain 109 157
+stats: newphase 1 1
+# stats: dump at 1402705157
+stats: users 232 232
+stats: {freemem,"os_mon@localhost"} 1 465.36328125 0.0 468.07421875 461.05859375 466.1865234375 4
+stats: {recvpackets,"os_mon@localhost"} 1 311.0 0.0 311 38 45.333333333333336 3
+stats: {sentpackets,"os_mon@localhost"} 1 316.0 0.0 316 31 43.0 3
+stats: {cpu,"os_mon@localhost"} 1 4.191616766467066 0.0 4.191616766467066 0.8 1.0231274745539038 4
+stats: {load,"os_mon@localhost"} 1 0.12109375 0.0 0.23828125 0.12109375 0.1875 4
+stats: users_count 105 232
+stats: finish_users_count 0 0
+stats: error_connect_nxdomain 210 367
+stats: newphase 0 1
+# stats: dump at 1402705167
+stats: users 320 320
+stats: {freemem,"os_mon@localhost"} 1 462.9921875 0.0 468.07421875 461.05859375 466.021875 5
+stats: {recvpackets,"os_mon@localhost"} 1 427.0 0.0 427 38 111.75 4
+stats: {sentpackets,"os_mon@localhost"} 1 427.0 0.0 427 31 111.25 4
+stats: {cpu,"os_mon@localhost"} 1 4.885343968095713 0.0 4.885343968095713 0.8 1.656825332936536 5
+stats: {load,"os_mon@localhost"} 1 0.1796875 0.0 0.23828125 0.12109375 0.17421875 5
+stats: users_count 88 320
+stats: finish_users_count 0 0
+stats: error_connect_nxdomain 209 576
+stats: newphase 0 1
+# stats: dump at 1402705177
+stats: users 411 411
+stats: {freemem,"os_mon@localhost"} 1 460.8203125 0.0 468.07421875 460.8203125 465.5169270833333 6
+stats: {recvpackets,"os_mon@localhost"} 1 408.0 0.0 427 38 174.8 5
+stats: {sentpackets,"os_mon@localhost"} 1 408.0 0.0 427 31 174.4 5
+stats: {cpu,"os_mon@localhost"} 1 4.595404595404595 0.0 4.885343968095713 0.8 2.1949117721297324 6
+stats: {load,"os_mon@localhost"} 1 0.1484375 0.0 0.23828125 0.12109375 0.17513020833333334 6
+stats: session 8 60010.60290527344 3.5267213143386034 60019.841064453125 60008.7900390625 0 0
+stats: users_count 99 419
+stats: finish_users_count 8 8
+stats: tr_register 8 60008.59948730469 3.2732244071696246 60017.156982421875 60006.864990234375 0 0
+stats: error_connect_nxdomain 284 860
+stats: newphase 0 1
+stats: error_abort_max_conn_retries 8 8
+# stats: dump at 1402705187
+stats: users 500 500
+stats: {freemem,"os_mon@localhost"} 1 458.0703125 0.0 468.07421875 458.0703125 464.84598214285717 7
+stats: {recvpackets,"os_mon@localhost"} 1 622.0 0.0 622 38 213.66666666666666 6
+stats: {sentpackets,"os_mon@localhost"} 1 627.0 0.0 627 31 213.33333333333334 6
+stats: {cpu,"os_mon@localhost"} 1 6.686626746506986 0.0 6.686626746506986 0.8 2.537839318311856 7
+stats: {load,"os_mon@localhost"} 1 0.12890625 0.0 0.23828125 0.12109375 0.17131696428571427 7
+stats: session 11 60009.5312278054 1.0087739013807928 60019.841064453125 60008.7900390625 60010.60290527344 8
+stats: users_count 100 519
+stats: finish_users_count 11 19
+stats: tr_register 10 60007.56691894531 1.0232393870912109 60017.156982421875 60006.864990234375 60008.59948730469 8
+stats: error_connect_nxdomain 317 1177
+stats: newphase 0 1
+stats: error_abort_max_conn_retries 10 18
+# stats: dump at 1402705197
+stats: users 600 602
+stats: {freemem,"os_mon@localhost"} 1 455.53125 0.0 468.07421875 455.53125 463.9990234375 8
+stats: {recvpackets,"os_mon@localhost"} 1 632.0 0.0 632 38 272.0 7
+stats: {sentpackets,"os_mon@localhost"} 1 633.0 0.0 633 31 272.42857142857144 7
+stats: {cpu,"os_mon@localhost"} 1 6.58682634730539 0.0 6.686626746506986 0.8 3.056437746836247 8
+stats: {load,"os_mon@localhost"} 1 0.109375 0.0 0.23828125 0.109375 0.166015625 8
+stats: session 11 60009.145197088066 0.4299129946231303 60019.841064453125 60008.56298828125 60009.98246042352 19
+stats: users_count 111 630
+stats: finish_users_count 11 30
+stats: tr_register 12 60007.297037760414 0.5187566363562328 60017.156982421875 60006.5771484375 60008.02583821615 18
+stats: error_connect_nxdomain 313 1490
+stats: newphase 0 1
+stats: error_abort_max_conn_retries 12 30
+# stats: dump at 1402705207
+stats: users 513 602
+stats: {freemem,"os_mon@localhost"} 1 453.03125 0.0 468.07421875 453.03125 463.05815972222223 9
+stats: {recvpackets,"os_mon@localhost"} 1 570.0 0.0 632 38 317.0 8
+stats: {sentpackets,"os_mon@localhost"} 1 569.0 0.0 633 31 317.5 8
+stats: {cpu,"os_mon@localhost"} 1 5.888223552894212 0.0 6.686626746506986 0.8 3.448703146888374 9
+stats: {load,"os_mon@localhost"} 1 0.08984375 0.0 0.23828125 0.08984375 0.1597222222222222 9
+stats: session 97 60009.51341011598 1.4044145647701125 60019.841064453125 60007.223876953125 60009.675463867185 30
+stats: users_count 10 640
+stats: finish_users_count 97 127
+stats: tr_register 90 60007.62735188802 1.444414818138669 60017.156982421875 60005.27392578125 60007.73431803386 30
+stats: error_connect_nxdomain 316 1806
+stats: newphase 1 2
+stats: error_abort_max_conn_retries 90 120
+# stats: dump at 1402705217
+stats: users 423 602
+stats: {freemem,"os_mon@localhost"} 1 452.8203125 0.0 468.07421875 452.8203125 462.05546875 10
+stats: {recvpackets,"os_mon@localhost"} 1 598.0 0.0 632 38 345.1111111111111 9
+stats: {sentpackets,"os_mon@localhost"} 1 602.0 0.0 633 31 345.44444444444446 9
+stats: {cpu,"os_mon@localhost"} 1 5.9880239520958085 0.0 6.686626746506986 0.8 3.6926551874889575 10
+stats: {load,"os_mon@localhost"} 1 0.078125 0.0 0.23828125 0.078125 0.152734375 10
+stats: session 105 60009.51198381696 1.6646681603338136 60021.9609375 60007.223876953125 60009.55169052965 127
+stats: users_count 15 655
+stats: finish_users_count 105 232
+stats: tr_register 110 60007.57219238281 1.6623043313294776 60020.005126953125 60005.27392578125 60007.65409342448 120
+stats: error_connect_nxdomain 231 2037
+stats: newphase 0 2
+stats: error_abort_max_conn_retries 110 230
+# stats: dump at 1402705227
+stats: users 340 602
+stats: {freemem,"os_mon@localhost"} 1 452.7421875 0.0 468.07421875 452.7421875 461.21590909090907 11
+stats: {recvpackets,"os_mon@localhost"} 1 481.0 0.0 632 38 370.4 10
+stats: {sentpackets,"os_mon@localhost"} 1 481.0 0.0 633 31 371.1 10
+stats: {cpu,"os_mon@localhost"} 1 4.785643070787637 0.0 6.686626746506986 0.8 3.9013250751804893 11
+stats: {load,"os_mon@localhost"} 1 0.0703125 0.0 0.23828125 0.0703125 0.14595170454545456 11
+stats: session 88 60009.2202536843 0.7686746755339393 60021.9609375 60007.223876953125 60009.53371981917 232
+stats: users_count 5 660
+stats: finish_users_count 88 320
+stats: tr_register 88 60007.28029008345 0.7675103582269174 60020.005126953125 60005.27392578125 60007.61492336107 230
+stats: error_connect_nxdomain 225 2262
+stats: newphase 0 2
+stats: error_abort_max_conn_retries 88 318
+# stats: dump at 1402705237
+stats: users 251 602
+stats: {freemem,"os_mon@localhost"} 1 452.41796875 0.0 468.07421875 452.41796875 460.509765625 12
+stats: {recvpackets,"os_mon@localhost"} 1 338.0 0.0 632 38 380.45454545454544 11
+stats: {sentpackets,"os_mon@localhost"} 1 338.0 0.0 633 31 381.09090909090907 11
+stats: {cpu,"os_mon@localhost"} 1 3.788634097706879 0.0 6.686626746506986 0.8 3.975018241481085 12
+stats: {load,"os_mon@localhost"} 1 0.05859375 0.0 0.23828125 0.05859375 0.13964843750000003 12
+stats: session 99 60010.3005198469 7.122459752102445 60077.51806640625 60007.223876953125 60009.44751663208 320
+stats: users_count 10 670
+stats: finish_users_count 99 419
+stats: tr_register 98 60008.32584054129 7.164467306723617 60075.5791015625 60005.27392578125 60007.52232044148 318
+stats: error_connect_nxdomain 124 2386
+stats: newphase 1 3
+stats: error_abort_max_conn_retries 98 416
+# stats: dump at 1402705247
+stats: users 162 602
+stats: {freemem,"os_mon@localhost"} 1 452.3359375 0.0 468.07421875 452.3359375 459.88731971153845 13
+stats: {recvpackets,"os_mon@localhost"} 1 258.0 0.0 632 38 376.9166666666667 12
+stats: {sentpackets,"os_mon@localhost"} 1 258.0 0.0 633 31 377.5 12
+stats: {cpu,"os_mon@localhost"} 1 2.7944111776447107 0.0 6.686626746506986 0.8 3.9606809996523 13
+stats: {load,"os_mon@localhost"} 1 0.05078125 0.0 0.23828125 0.05078125 0.13341346153846156 13
+stats: session 100 60009.28774902344 1.7015556993094116 60077.51806640625 60006.94091796875 60009.64906154441 419
+stats: users_count 11 681
+stats: finish_users_count 100 519
+stats: tr_register 98 60007.390116788905 1.7041308019734116 60075.5791015625 60005.27392578125 60007.71161123423 416
+stats: error_connect_nxdomain 133 2519
+stats: newphase 0 3
+stats: error_abort_max_conn_retries 98 514
+# stats: dump at 1402705257
+stats: users 60 602
+stats: {freemem,"os_mon@localhost"} 1 452.328125 0.0 468.07421875 452.328125 459.34793526785717 14
+stats: {recvpackets,"os_mon@localhost"} 1 318.0 0.0 632 38 367.7692307692308 13
+stats: {sentpackets,"os_mon@localhost"} 1 326.0 0.0 633 31 368.3076923076923 13
+stats: {cpu,"os_mon@localhost"} 1 3.4965034965034967 0.0 6.686626746506986 0.8 3.8773760123660437 14
+stats: {load,"os_mon@localhost"} 1 0.0390625 0.0 0.23828125 0.0390625 0.12751116071428575 14
+stats: session 111 60009.07651939048 0.5915898781619026 60077.51806640625 60006.8759765625 60009.57944448835 519
+stats: users_count 9 690
+stats: finish_users_count 111 630
+stats: tr_register 116 60007.06292303677 0.6308581991562362 60075.5791015625 60004.840087890625 60007.65031462792 514
+stats: error_connect_nxdomain 142 2661
+stats: newphase 0 3
+stats: error_abort_max_conn_retries 116 630
+# stats: dump at 1402705267
+stats: users 133 602
+stats: {freemem,"os_mon@localhost"} 1 452.36328125 0.0 468.07421875 452.328125 458.87994791666665 15
+stats: {recvpackets,"os_mon@localhost"} 1 186.0 0.0 632 38 364.2142857142857 14
+stats: {sentpackets,"os_mon@localhost"} 1 186.0 0.0 633 31 365.2857142857143 14
+stats: {cpu,"os_mon@localhost"} 1 2.293120638085743 0.0 6.686626746506986 0.8 3.851984511308541 15
+stats: {load,"os_mon@localhost"} 1 0.03125 0.0 0.23828125 0.03125 0.12161458333333336 15
+stats: session 10 60009.42822265625 0.3332778149305706 60077.51806640625 60006.8759765625 60009.49083387587 630
+stats: users_count 83 773
+stats: finish_users_count 10 640
+stats: tr_register 10 60007.50729980469 0.3097460602279667 60075.5791015625 60004.840087890625 60007.542159985736 630
+stats: error_connect_nxdomain 111 2772
+stats: newphase 1 4
+stats: error_abort_max_conn_retries 10 640
+# stats: dump at 1402705277
+stats: users 219 602
+stats: {freemem,"os_mon@localhost"} 1 452.2109375 0.0 468.07421875 452.2109375 458.47265625 16
+stats: {recvpackets,"os_mon@localhost"} 1 284.0 0.0 632 38 352.3333333333333 15
+stats: {sentpackets,"os_mon@localhost"} 1 284.0 0.0 633 31 353.3333333333333 15
+stats: {cpu,"os_mon@localhost"} 1 3.788634097706879 0.0 6.686626746506986 0.8 3.7545555192321163 16
+stats: {load,"os_mon@localhost"} 1 0.03125 0.0 0.23828125 0.03125 0.11596679687500003 16
+stats: session 15 60008.99324544271 0.4341395672414593 60077.51806640625 60006.8759765625 60009.489855575564 640
+stats: users_count 101 874
+stats: finish_users_count 15 655
+stats: tr_register 14 60007.01306152344 0.48530268937023463 60075.5791015625 60004.840087890625 60007.54161529541 640
+stats: error_connect_nxdomain 209 2981
+stats: newphase 0 4
+stats: error_abort_max_conn_retries 14 654
+# stats: dump at 1402705287
+stats: users 304 602
+stats: {freemem,"os_mon@localhost"} 1 452.01953125 0.0 468.07421875 452.01953125 458.10431985294116 17
+stats: {recvpackets,"os_mon@localhost"} 1 484.0 0.0 632 38 348.0625 16
+stats: {sentpackets,"os_mon@localhost"} 1 487.0 0.0 633 31 349.0 16
+stats: {cpu,"os_mon@localhost"} 1 5.583250249252243 0.0 6.686626746506986 0.8 3.756560141495338 17
+stats: {load,"os_mon@localhost"} 1 0.1015625 0.0 0.23828125 0.03125 0.11098345588235296 17
+stats: session 5 60009.3740234375 0.1934647706359109 60077.51806640625 60006.8759765625 60009.47848282443 655
+stats: users_count 90 964
+stats: finish_users_count 5 660
+stats: tr_register 6 60007.39152018229 0.19414669089704958 60075.5791015625 60004.840087890625 60007.53030068867 654
+stats: error_connect_nxdomain 207 3188
+stats: newphase 0 4
+stats: error_abort_max_conn_retries 6 660
+# stats: dump at 1402705297
+stats: users 398 602
+stats: {freemem,"os_mon@localhost"} 1 452.046875 0.0 468.07421875 452.01953125 457.7662760416667 18
+stats: {recvpackets,"os_mon@localhost"} 1 397.0 0.0 632 38 356.05882352941177 17
+stats: {sentpackets,"os_mon@localhost"} 1 397.0 0.0 633 31 357.11764705882354 17
+stats: {cpu,"os_mon@localhost"} 1 4.685942173479561 0.0 6.686626746506986 0.8 3.8580429252596105 18
+stats: {load,"os_mon@localhost"} 1 0.08984375 0.0 0.23828125 0.03125 0.11046006944444448 18
+stats: session 10 60008.94582519531 0.6610528800124726 60077.51806640625 60006.8759765625 60009.477691465436 660
+stats: users_count 104 1068
+stats: finish_users_count 10 670
+stats: tr_register 10 60007.010522460936 0.6615174875814046 60075.5791015625 60004.840087890625 60007.5290390477 660
+stats: error_connect_nxdomain 286 3474
+stats: newphase 0 4
+stats: error_abort_max_conn_retries 10 670
+# stats: dump at 1402705307
+stats: users 482 602
+stats: {freemem,"os_mon@localhost"} 1 451.91796875 0.0 468.07421875 451.91796875 457.4652549342105 19
+stats: {recvpackets,"os_mon@localhost"} 1 624.0 0.0 632 38 358.3333333333333 18
+stats: {sentpackets,"os_mon@localhost"} 1 624.0 0.0 633 31 359.3333333333333 18
+stats: {cpu,"os_mon@localhost"} 1 6.187624750499002 0.0 6.686626746506986 0.8 3.9016165699027656 19
+stats: {load,"os_mon@localhost"} 1 0.078125 0.0 0.23828125 0.03125 0.10937500000000003 19
+stats: session 11 60009.0263671875 0.1275332978914117 60077.51806640625 60006.8759765625 60009.4697531629 670
+stats: users_count 95 1163
+stats: finish_users_count 11 681
+stats: tr_register 11 60007.06600674716 0.11620325645592806 60075.5791015625 60004.840087890625 60007.52129999417 670
+stats: error_connect_nxdomain 311 3785
+stats: newphase 0 4
+stats: error_abort_max_conn_retries 11 681
+# stats: dump at 1402705317
+stats: users 575 602
+stats: {freemem,"os_mon@localhost"} 1 451.7109375 0.0 468.07421875 451.7109375 457.187890625 20
+stats: {recvpackets,"os_mon@localhost"} 1 619.0 0.0 632 38 372.3157894736842 19
+stats: {sentpackets,"os_mon@localhost"} 1 622.0 0.0 633 31 373.2631578947368 19
+stats: {cpu,"os_mon@localhost"} 1 6.3 0.0 6.686626746506986 0.8 4.0159169789325775 20
+stats: {load,"os_mon@localhost"} 1 0.05859375 0.0 0.23828125 0.03125 0.10781250000000002 20
+stats: session 9 60009.94607204861 1.7990147126754035 60077.51806640625 60006.8759765625 60009.462591274896 681
+stats: users_count 102 1265
+stats: finish_users_count 9 690
+stats: tr_register 9 60008.025200737844 1.7706519156541989 60075.5791015625 60004.840087890625 60007.51394577138 681
+stats: error_connect_nxdomain 295 4080
+stats: newphase 0 4
+stats: error_abort_max_conn_retries 9 690
+# stats: dump at 1402705327
+stats: users 510 602
+stats: {freemem,"os_mon@localhost"} 1 451.4609375 0.0 468.07421875 451.4609375 456.9270833333333 21
+stats: {recvpackets,"os_mon@localhost"} 1 540.0 0.0 632 38 384.65 20
+stats: {sentpackets,"os_mon@localhost"} 1 540.0 0.0 633 31 385.7 20
+stats: {cpu,"os_mon@localhost"} 1 5.782652043868395 0.0 6.686626746506986 0.8 4.124682837078645 21
+stats: {load,"os_mon@localhost"} 1 0.05078125 0.0 0.23828125 0.03125 0.10546875000000003 21
+stats: session 83 60009.27904096856 1.3662894871330902 60077.51806640625 60006.3310546875 60009.468897545856 690
+stats: users_count 18 1283
+stats: finish_users_count 83 773
+stats: tr_register 83 60007.276879000376 1.125197349620729 60075.5791015625 60004.328125 60007.520614314424 690
+stats: error_connect_nxdomain 308 4388
+stats: newphase 1 5
+stats: error_abort_max_conn_retries 83 773
+# stats: dump at 1402705337
+stats: users 422 602
+stats: {freemem,"os_mon@localhost"} 1 451.515625 0.0 468.07421875 451.4609375 456.67862215909093 22
+stats: {recvpackets,"os_mon@localhost"} 1 592.0 0.0 632 38 392.04761904761904 21
+stats: {sentpackets,"os_mon@localhost"} 1 592.0 0.0 633 31 393.04761904761904 21
+stats: {cpu,"os_mon@localhost"} 1 5.888223552894212 0.0 6.686626746506986 0.8 4.200045073750906 22
+stats: {load,"os_mon@localhost"} 1 0.12890625 0.0 0.23828125 0.03125 0.10298295454545457 22
+stats: session 101 60009.16904200186 1.2209962026731378 60077.51806640625 60006.3310546875 60009.44851191078 773
+stats: users_count 13 1296
+stats: finish_users_count 101 874
+stats: tr_register 101 60007.2140025526 1.1866898615723696 60075.5791015625 60004.328125 60007.49444351098 773
+stats: error_connect_nxdomain 228 4616
+stats: newphase 0 5
+stats: error_abort_max_conn_retries 101 874
+# stats: dump at 1402705347
+stats: users 338 602
+stats: {freemem,"os_mon@localhost"} 1 451.31640625 0.0 468.07421875 451.31640625 456.4541440217391 23
+stats: {recvpackets,"os_mon@localhost"} 1 436.0 0.0 632 38 401.1363636363636 22
+stats: {sentpackets,"os_mon@localhost"} 1 440.0 0.0 633 31 402.09090909090907 22
+stats: {cpu,"os_mon@localhost"} 1 4.491017964071856 0.0 6.686626746506986 0.8 4.273444138061485 23
+stats: {load,"os_mon@localhost"} 1 0.1796875 0.0 0.23828125 0.03125 0.10411005434782611 23
+stats: session 90 60009.01053873698 0.7196920986195756 60077.51806640625 60006.3310546875 60009.416216189034 874
+stats: users_count 6 1302
+stats: finish_users_count 90 964
+stats: tr_register 87 60007.07538894127 0.6971730620728827 60075.5791015625 60004.328125 60007.462035574135 874
+stats: error_connect_nxdomain 201 4817
+stats: newphase 0 5
+stats: error_abort_max_conn_retries 87 961
+# stats: dump at 1402705357
+stats: users 234 602
+stats: {freemem,"os_mon@localhost"} 1 451.47265625 0.0 468.07421875 451.31640625 456.2400716145833 24
+stats: {recvpackets,"os_mon@localhost"} 1 372.0 0.0 632 38 402.6521739130435 23
+stats: {sentpackets,"os_mon@localhost"} 1 372.0 0.0 633 31 403.7391304347826 23
+stats: {cpu,"os_mon@localhost"} 1 3.8844621513944224 0.0 6.686626746506986 0.8 4.2825097141452515 24
+stats: {load,"os_mon@localhost"} 1 0.1484375 0.0 0.23828125 0.03125 0.10725911458333336 24
+stats: session 104 60008.96493295523 0.8376038259076242 60077.51806640625 60006.3310546875 60009.37834173812 964
+stats: users_count 0 1302
+stats: finish_users_count 104 1068
+stats: tr_register 100 60006.99568359375 0.8699061610322191 60075.5791015625 60004.328125 60007.427032184896 961
+stats: error_connect_nxdomain 131 4948
+stats: newphase 0 5
+stats: error_abort_max_conn_retries 100 1061
+# stats: dump at 1402705367
+stats: users 139 602
+stats: {freemem,"os_mon@localhost"} 1 451.39453125 0.0 468.07421875 451.31640625 456.049375 25
+stats: {recvpackets,"os_mon@localhost"} 1 240.0 0.0 632 38 401.375 24
+stats: {sentpackets,"os_mon@localhost"} 1 240.0 0.0 633 31 402.4166666666667 24
+stats: {cpu,"os_mon@localhost"} 1 2.5948103792415167 0.0 6.686626746506986 0.8 4.266587811635218 25
+stats: {load,"os_mon@localhost"} 1 0.12890625 0.0 0.23828125 0.03125 0.10890625000000002 25
+stats: session 95 60009.23245271382 0.7957385233116429 60077.51806640625 60006.3310546875 60009.33808470308 1068
+stats: users_count 0 1302
+stats: finish_users_count 95 1163
+stats: tr_register 99 60007.211874605426 0.810132911047813 60075.5791015625 60004.328125 60007.386377275274 1061
+stats: error_connect_nxdomain 112 5060
+stats: newphase 0 5
+stats: error_abort_max_conn_retries 99 1160
+# stats: dump at 1402705377
+stats: users 37 602
+stats: {freemem,"os_mon@localhost"} 1 451.32421875 0.0 468.07421875 451.31640625 455.8703425480769 26
+stats: {recvpackets,"os_mon@localhost"} 1 205.0 0.0 632 38 394.92 25
+stats: {sentpackets,"os_mon@localhost"} 1 205.0 0.0 633 31 395.92 25
+stats: {cpu,"os_mon@localhost"} 1 2.49003984063745 0.0 6.686626746506986 0.8 4.202288679620076 26
+stats: {load,"os_mon@localhost"} 1 0.109375 0.0 0.23828125 0.03125 0.10967548076923078 26
+stats: session 102 60009.22447533701 0.8835569130347651 60077.51806640625 60006.3310546875 60009.3294561227 1163
+stats: users_count 0 1302
+stats: finish_users_count 102 1265
+stats: tr_register 98 60007.27847227758 0.8986303185281485 60075.5791015625 60004.328125 60007.371484375 1160
+stats: error_connect_nxdomain 104 5164
+stats: newphase 0 5
+stats: error_abort_max_conn_retries 98 1258
+# stats: dump at 1402705387
+stats: users 19 602
+stats: {freemem,"os_mon@localhost"} 1 451.16796875 0.0 468.07421875 451.16796875 455.7019675925926 27
+stats: {recvpackets,"os_mon@localhost"} 1 198.0 0.0 632 38 387.61538461538464 26
+stats: {sentpackets,"os_mon@localhost"} 1 202.0 0.0 633 31 388.5769230769231 26
+stats: {cpu,"os_mon@localhost"} 1 2.4975024975024978 0.0 6.686626746506986 0.8 4.138872055954053 27
+stats: {load,"os_mon@localhost"} 1 0.08984375 0.0 0.23828125 0.03125 0.10966435185185187 27
+stats: session 18 60009.71434190538 0.5754766057269481 60077.51806640625 60006.3310546875 60009.32099126884 1265
+stats: users_count 0 1302
+stats: finish_users_count 18 1283
+stats: tr_register 25 60007.66689453125 0.5652782072567808 60075.5791015625 60004.328125 60007.364238599526 1258
+stats: error_connect_nxdomain 25 5189
+stats: newphase 0 5
+stats: error_abort_max_conn_retries 25 1283
+# stats: dump at 1402705397
+stats: users 6 602
+stats: {freemem,"os_mon@localhost"} 1 451.4296875 0.0 468.07421875 451.16796875 455.5400390625 28
+stats: {recvpackets,"os_mon@localhost"} 1 22.0 0.0 632 22 380.5925925925926 27
+stats: {sentpackets,"os_mon@localhost"} 1 22.0 0.0 633 22 381.6666666666667 27
+stats: {cpu,"os_mon@localhost"} 1 0.796812749003984 0.0 6.686626746506986 0.796812749003984 4.0802517145807835 28
+stats: {load,"os_mon@localhost"} 1 0.078125 0.0 0.23828125 0.03125 0.10895647321428573 28
+stats: session 13 60012.878718449516 5.092233917518234 60077.51806640625 60006.3310546875 60009.32650982804 1283
+stats: users_count 0 1302
+stats: finish_users_count 13 1296
+stats: tr_register 13 60010.8969914363 5.1346545288684045 60075.5791015625 60004.328125 60007.3701360261 1283
+stats: error_connect_nxdomain 13 5202
+stats: newphase 0 5
+stats: error_abort_max_conn_retries 13 1296
+# stats: dump at 1402705404
+stats: users 0 602
+stats: {freemem,"os_mon@localhost"} 1 451.44140625 0.0 468.07421875 451.16796875 455.3983028017241 29
+stats: {recvpackets,"os_mon@localhost"} 1 25.0 0.0 632 22 367.7857142857143 28
+stats: {sentpackets,"os_mon@localhost"} 1 25.0 0.0 633 22 368.82142857142856 28
+stats: {cpu,"os_mon@localhost"} 1 0.7976071784646062 0.0 6.686626746506986 0.796812749003984 3.967029681285032 29
+stats: {load,"os_mon@localhost"} 1 0.0703125 0.0 0.23828125 0.03125 0.10789331896551725 29
+stats: session 6 60009.59069824219 0.2739333153434422 60077.51806640625 60006.3310546875 60009.36214155032 1296
+stats: users_count 0 1302
+stats: finish_users_count 6 1302
+stats: tr_register 5 60007.68662109375 0.2961500693028864 60075.5791015625 60004.328125 60007.40551343376 1296
+stats: error_connect_nxdomain 5 5207
+stats: newphase 0 5
+stats: error_abort_max_conn_retries 5 1301
+EndMonitor:{1402,705404,990333}
