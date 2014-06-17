@@ -1,0 +1,123 @@
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+    ts_config_server:(5:<0.54.0>) Config server started, logdir is "/home/ubuntu/tsung/log/sen/20140617-0524"
+ 
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+              ts_mon:(5:<0.53.0>) starting monitor, global 
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+           ts_config:(5:<0.54.0>) Reading config file: ./xml/aws_test_sen.xml
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+           ts_config:(5:<0.54.0>) Session name for id 1 is "send"
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+    ts_config_server:(4:<0.54.0>) SYSINFO:Tsung version: 1.5.1
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+    ts_config_server:(4:<0.54.0>) SYSINFO:Erlang version: Erlang R16B03 (erts-5.10.4) [source] [64-bit] [async-threads:16] [hipe] [kernel-poll:true]
+
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+    ts_config_server:(4:<0.54.0>) SYSINFO:System architecture x86_64-pc-linux-gnu
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+    ts_config_server:(4:<0.54.0>) SYSINFO:Current path: /usr/lib/erlang/lib/tsung-1.5.1/ebin/tsung.beam
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+              ts_mon:(5:<0.55.0>) Activate clients with text backend
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+              ts_mon:(5:<0.55.0>) Starting tsung clients on hosts: [localhost]
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+    ts_config_server:(5:<0.54.0>) Start a launcher on the controller beam localhost
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+  ts_launcher_static:(5:<0.88.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+         ts_launcher:(5:<0.89.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+    ts_config_server:(5:<0.54.0>) All remote beams started, syncing 
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+    ts_config_server:(5:<0.54.0>) Undefined ports_range config 
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 1 for client "localhost" (last ? true): will start 5000 users
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 2 for client "localhost" (last ? true): will start 10000 users
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 3 for client "localhost" (last ? true): will start 15000 users
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 4 for client "localhost" (last ? true): will start 20000 users
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 5 for client "localhost" (last ? true): will start 25000 users
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+    ts_config_server:(5:<0.54.0>) New arrival phase 6 for client "localhost" (last ? true): will start 30000 users
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+         ts_launcher:(5:<0.89.0>) Expected duration of first phase: 300.0 sec (5000 users) 
+
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+         ts_launcher:(2:<0.89.0>) WARNING !!! too few file descriptors available (1024), you should decrease maxusers (currently 50000)
+=INFO REPORT==== 17-Jun-2014::05:24:07 ===
+         ts_launcher:(5:<0.89.0>) Activate launcher (5000 users) in 1009 msec 
+
+=INFO REPORT==== 17-Jun-2014::05:24:08 ===
+    ts_os_mon_erlang:(5:<0.76.0>) Starting os_mon beam on host "localhost" 
+
+=INFO REPORT==== 17-Jun-2014::05:24:09 ===
+    ts_os_mon_erlang:(5:<0.76.0>) Loading tsung monitor on nodes [os_mon@localhost]
+
+=INFO REPORT==== 17-Jun-2014::05:29:03 ===
+         ts_launcher:(4:<0.89.0>) Need to wait 5.025 sec before changing phase, going to sleep
+
+=INFO REPORT==== 17-Jun-2014::05:29:08 ===
+         ts_launcher:(5:<0.89.0>) Waking up
+
+=INFO REPORT==== 17-Jun-2014::05:29:08 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (10000 users, 0.03333333333333333); expected duration=300.0 sec
+
+=INFO REPORT==== 17-Jun-2014::05:34:08 ===
+         ts_launcher:(5:<0.89.0>) Phase duration exceeded, but not all users were launched (162 users, 1.6% of phase)
+
+=INFO REPORT==== 17-Jun-2014::05:34:08 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (15000 users, 0.05); expected duration=300.0 sec
+
+=INFO REPORT==== 17-Jun-2014::05:39:08 ===
+         ts_launcher:(5:<0.89.0>) Phase duration exceeded, but not all users were launched (224 users, 1.5% of phase)
+
+=INFO REPORT==== 17-Jun-2014::05:39:08 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (20000 users, 0.06666666666666667); expected duration=300.0 sec
+
+=INFO REPORT==== 17-Jun-2014::05:44:08 ===
+         ts_launcher:(5:<0.89.0>) Phase duration exceeded, but not all users were launched (422 users, 2.1% of phase)
+
+=INFO REPORT==== 17-Jun-2014::05:44:08 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (25000 users, 0.08333333333333333); expected duration=300.0 sec
+
+=INFO REPORT==== 17-Jun-2014::05:49:08 ===
+         ts_launcher:(5:<0.89.0>) Phase duration exceeded, but not all users were launched (725 users, 2.9% of phase)
+
+=INFO REPORT==== 17-Jun-2014::05:49:08 ===
+         ts_launcher:(5:<0.89.0>) Start a new arrival phase (30000 users, 0.1); expected duration=300.0 sec
+
+=INFO REPORT==== 17-Jun-2014::05:54:08 ===
+         ts_launcher:(5:<0.89.0>) Phase duration exceeded, but not all users were launched (808 users, 2.7% of phase)
+
+=INFO REPORT==== 17-Jun-2014::05:54:08 ===
+         ts_launcher:(5:<0.89.0>) This was the last phase, wait for connected users to finish their session
+
+=INFO REPORT==== 17-Jun-2014::05:54:13 ===
+     ts_launcher_mgr:(5:<0.84.0>) No more active users 'tsung_controller_sen@ip-172-31-46-22' "29888"
+
+=INFO REPORT==== 17-Jun-2014::05:54:13 ===
+              ts_mon:(5:<0.55.0>) stopping monitor (normal)

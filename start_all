@@ -1,0 +1,6 @@
+#!/bin/bash
+python py/randmac.py
+./start reg
+./start dec
+./start lis
+./start sen
