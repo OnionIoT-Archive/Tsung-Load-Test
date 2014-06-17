@@ -1,0 +1,33 @@
+
+=INFO REPORT==== 16-Jun-2014::23:43:47 ===
+    ts_config_server:(5:<0.54.0>) Config server started, logdir is "/home/ubuntu/tsung/log/lis/20140616-2343"
+ 
+=INFO REPORT==== 16-Jun-2014::23:43:47 ===
+              ts_mon:(5:<0.53.0>) starting monitor, global 
+
+=INFO REPORT==== 16-Jun-2014::23:43:47 ===
+           ts_config:(5:<0.54.0>) Reading config file: ./xml/aws_test_lis.xml
+
+=INFO REPORT==== 16-Jun-2014::23:43:47 ===
+    ts_config_server:(0:<0.54.0>) Error while parsing XML config file: {error,
+                                                                        bad_filename,
+                                                                        "./csv/maclist.csv"}
+
+=ERROR REPORT==== 16-Jun-2014::23:43:47 ===
+** Generic server ts_config_server terminating 
+** Last message in was {get_monitor_hosts}
+** When Server state == {state,undefined,
+                               "/home/ubuntu/tsung/log/lis/20140616-2343",0,0,
+                               0,undefined,1,undefined,'ip-172-31-46-22',0,0,
+                               undefined,undefined}
+** Reason for termination == 
+** {{badrecord,config},
+    [{ts_config_server,handle_call,3,
+                       [{file,"src/tsung_controller/ts_config_server.erl"},
+                        {line,335}]},
+     {gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},
+     {proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+
+=INFO REPORT==== 16-Jun-2014::23:43:47 ===
+    ts_config_server:(5:<0.74.0>) Config server started, logdir is "/home/ubuntu/tsung/log/lis/20140616-2343"
+ 
